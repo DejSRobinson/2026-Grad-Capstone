@@ -1089,7 +1089,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1927428967}
-        m_TargetAssemblyTypeName: MainMenuManger, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameManger, Assembly-CSharp
         m_MethodName: OnQuit
         m_Mode: 1
         m_Arguments:
@@ -1301,7 +1301,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1927428967}
-        m_TargetAssemblyTypeName: MainMenuManger, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameManger, Assembly-CSharp
         m_MethodName: loadGameScene
         m_Mode: 1
         m_Arguments:
@@ -1462,9 +1462,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1927428962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a18743ad09885554db13820e33e41ba7, type: 3}
+  m_Script: {fileID: 11500000, guid: 84bbb0b6e8afc0945bf5214fd499b7fe, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MainMenuManger
+  m_EditorClassIdentifier: Assembly-CSharp::GameManger
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

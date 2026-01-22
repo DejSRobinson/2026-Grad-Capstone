@@ -1,8 +1,13 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManger : MonoBehaviour
+public class GameManger : SingletonManger<GameManger>
 {
+    /// <summary>
+    /// Used to transtion between scenes
+    /// </summary>
+    
     // Loads in the game scene
     public void loadMenuScene()
     {
@@ -26,5 +31,16 @@ public class GameManger : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("You have quit the game!");
+    }
+
+    /// <summary>
+    ///  Point and Click 
+    /// </summary>
+    /// 
+
+    void Update()
+    {
+        Vector2 inputPos = Input.touchCount > 0 ? Input.GetTouch(0).position : Input.mousePosition;
+        Debug.Log(inputPos);
     }
 }
