@@ -61,6 +61,6 @@ public class GameManger : SingletonManger<GameManger>
     {
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(inputPos);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-        m_player.MoveTo(worldPoint);
+        //m_player.MoveTo(worldPoint);
     }
 }

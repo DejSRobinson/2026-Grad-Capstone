@@ -1,8 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.InputSystem;
 
-public class PlayerMovement : Unit
+public class PlayerMovement:MonoBehaviour
 {
+
+}
+/*public class PlayerMovement : Unit
+{
+    /*
     // Varaibles Used
     protected Vector2 m_Velocity;
     protected Vector3 m_LastPosition;
@@ -39,4 +46,4 @@ public class PlayerMovement : Unit
 
         animator.SetBool("isWalking", true);
     }
-}
+}*/
