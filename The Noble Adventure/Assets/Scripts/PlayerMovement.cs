@@ -5,7 +5,25 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement:MonoBehaviour
 {
+    // Varaibles Used
+    protected float speed = 3f;
+    private Rigidbody2D rb;
+    protected Vector2 position;
 
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        //rb.
+    }
+
+    private void Move(InputAction.CallbackContext context)
+    {
+        position = context.ReadValue<Vector2>();
+    }
 }
 /*public class PlayerMovement : Unit
 {
