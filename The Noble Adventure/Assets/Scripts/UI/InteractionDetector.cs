@@ -18,6 +18,7 @@ public class InteractionDetector : MonoBehaviour
         if (context.performed)
         {
             interactableInRage?.Interact();
+            Debug.Log("Chest Clicked!");
         }
     }
 
@@ -27,6 +28,7 @@ public class InteractionDetector : MonoBehaviour
         {
             interactableInRage = interactable;
             interactionIcon.SetActive(true);
+
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
