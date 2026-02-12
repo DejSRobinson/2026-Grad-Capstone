@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,7 @@ public class PlayerMovement:MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 targetPosition;
     private bool isMoving = false;
+    public GameObject indicator;
 
     /// <summary>
     /// Sets up our game variables 
@@ -18,6 +20,7 @@ public class PlayerMovement:MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
+        indicator.SetActive(false);
     }
 
     private void Update()
@@ -25,6 +28,9 @@ public class PlayerMovement:MonoBehaviour
         // If we're moving and not at the target, move towards it
         if (isMoving)
         {
+            indicator.SetActive(true);
+            indicator.transform.position = targetPosition;
+
             // Calculate direction and distance
             Vector2 direction = targetPosition - (Vector2)transform.position;
             float distance = direction.magnitude;
@@ -34,6 +40,7 @@ public class PlayerMovement:MonoBehaviour
             {
                 isMoving = false;
                 rb.linearVelocity = Vector2.zero;
+                indicator.SetActive(false);
             }
             else
             {
@@ -43,7 +50,7 @@ public class PlayerMovement:MonoBehaviour
         }
     }
 
-    // This method is called when you click
+    // This method is called when you click a location on the map
     public void OnClick(InputAction.CallbackContext context)
     {
         // Only process when the mouse button is pressed (not released)
