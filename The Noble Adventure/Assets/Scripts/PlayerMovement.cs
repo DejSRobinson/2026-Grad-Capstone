@@ -12,7 +12,7 @@ public class PlayerMovement:MonoBehaviour
     private Vector2 targetPosition;
     private bool isMoving = false;
     public GameObject indicator;
-    public Collider2D collision;
+    //public Collider2D collision;
 
     /// <summary>
     /// Sets up our game variables 
@@ -55,10 +55,11 @@ public class PlayerMovement:MonoBehaviour
     public void OnClick(InputAction.CallbackContext context)
     {
         Vector2 mousePos = Mouse.current.position.ReadValue();
-        Ray ray = Camera.main.ScreenPointToRay(mousePos);
+        //Ray ray = Camera.main.ScreenPointToRay(mousePos);
         // Only process when the mouse button is pressed (not released)
         if (context.performed)
         {
+            /*
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
                 if (hit.collider.tag == "Chest")
@@ -73,7 +74,10 @@ public class PlayerMovement:MonoBehaviour
                 targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
                 isMoving = true;
                 Debug.Log("Moving to " + targetPosition);
-            }
+            }*/
+            // Convert mouse position to world position
+            targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
+            isMoving = true;
         }
     }
 }
