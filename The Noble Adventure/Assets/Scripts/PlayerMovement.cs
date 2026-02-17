@@ -12,6 +12,7 @@ public class PlayerMovement:MonoBehaviour
     private Vector2 targetPosition;
     private bool isMoving = false;
     public GameObject indicator;
+    public Collider2D collision;
 
     /// <summary>
     /// Sets up our game variables 
@@ -53,13 +54,26 @@ public class PlayerMovement:MonoBehaviour
     // This method is called when you click a location on the map
     public void OnClick(InputAction.CallbackContext context)
     {
+        Vector2 mousePos = Mouse.current.position.ReadValue();
+        Ray ray = Camera.main.ScreenPointToRay(mousePos);
         // Only process when the mouse button is pressed (not released)
         if (context.performed)
         {
-            // Convert mouse position to world position
-            Vector2 mousePos = Mouse.current.position.ReadValue();
-            targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
-            isMoving = true;
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                if (hit.collider.tag == "Chest")
+                {
+                    Debug.Log("Opening Chest");
+                }
+            }
+            
+            else
+            {
+                // Convert mouse position to world position
+                targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
+                isMoving = true;
+                Debug.Log("Moving to " + targetPosition);
+            }
         }
     }
 }

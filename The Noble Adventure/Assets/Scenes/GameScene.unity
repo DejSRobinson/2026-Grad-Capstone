@@ -1145,9 +1145,10 @@ GameObject:
   - component: {fileID: 618217110}
   - component: {fileID: 618217111}
   - component: {fileID: 618217112}
+  - component: {fileID: 618217113}
   m_Layer: 0
   m_Name: Chest1
-  m_TagString: Untagged
+  m_TagString: Chest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1284,6 +1285,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.132031, y: 1.0670953}
   m_EdgeRadius: 0
+--- !u!50 &618217113
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618217108}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &621180655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,6 +1482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 3
   indicator: {fileID: 1300787880}
+  collision: {fileID: 618217112}
 --- !u!114 &662680696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1539,6 +1568,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9fe1e3fa-485e-40cf-8c5c-8bfc786455b9
     m_ActionName: 'Mouse/Position[/Mouse/position]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2f8d8b3a-5c56-4c1f-b499-be75152a8b6d
+    m_ActionName: 'Player/Interact[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: 
@@ -1743,7 +1776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &946625867
 Transform:
   m_ObjectHideFlags: 0

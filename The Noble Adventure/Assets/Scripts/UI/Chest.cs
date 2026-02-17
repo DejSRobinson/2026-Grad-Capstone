@@ -16,27 +16,6 @@ public class Chest : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        return !IsOpened;
+        return false;
     }
-
-    public void Interact()
-    {
-        if (!CanInteract()) return;
-        //OpenChest();
-    }
-
-    /*
-    private void OpenChest()
-    {
-        //IsOpened = true;
-        SetOpend(true);
-    }
-
-    public void SetOpend(bool opened)
-    {
-        if(IsOpened)
-        {
-            Debug.Log("I'm opened!");
-        }
-    }*/
 }

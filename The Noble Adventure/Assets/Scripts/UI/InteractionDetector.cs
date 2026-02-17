@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using Unity.VisualScripting;
 
 public class InteractionDetector : MonoBehaviour
 {
@@ -11,15 +12,6 @@ public class InteractionDetector : MonoBehaviour
     void Start()
     {
         interactionIcon.SetActive(false);
-    }
-
-    public void OnInteract (InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            interactableInRage?.Interact();
-            Debug.Log("Chest Clicked!");
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
