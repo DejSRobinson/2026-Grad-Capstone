@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 44ee08b24709c5a4a86ccead0e45556b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8003613333462147312
+    second: DxEfGb_0
+  - first:
+      213: 8006299282682076851
+    second: DxEfGb_1
+  - first:
+      213: 8227614214385339999
+    second: DxEfGb_2
+  - first:
+      213: -1778206920906169166
+    second: DxEfGb_3
+  - first:
+      213: -1997568154447893624
+    second: DxEfGb_4
+  - first:
+      213: 9162941641608721038
+    second: DxEfGb_5
+  - first:
+      213: -4753790198678621702
+    second: DxEfGb_6
+  - first:
+      213: -73043120284272205
+    second: DxEfGb_7
+  - first:
+      213: -6220294050984632278
+    second: DxEfGb_8
+  - first:
+      213: -6301637604934278625
+    second: DxEfGb_9
+  - first:
+      213: 6700095163351511032
+    second: DxEfGb_10
+  - first:
+      213: -5498446327027245692
+    second: DxEfGb_11
+  - first:
+      213: -7119125948331419370
+    second: DxEfGb_12
+  - first:
+      213: 4562449047873004274
+    second: DxEfGb_13
+  - first:
+      213: 1590769685336767647
+    second: DxEfGb_14
+  - first:
+      213: 7388416602069578446
+    second: DxEfGb_15
+  - first:
+      213: 7648208307922954450
+    second: DxEfGb_16
+  - first:
+      213: -6075784777374947645
+    second: DxEfGb_17
+  - first:
+      213: -3764940133419820583
+    second: DxEfGb_18
+  - first:
+      213: 3682589416385090174
+    second: DxEfGb_19
+  - first:
+      213: 4881220259779322268
+    second: DxEfGb_20
+  - first:
+      213: -6682468227848619748
+    second: DxEfGb_21
+  - first:
+      213: -1468905722804471308
+    second: DxEfGb_22
+  - first:
+      213: 1331444972618247451
+    second: DxEfGb_23
+  - first:
+      213: 5539589387174681061
+    second: DxEfGb_24
+  - first:
+      213: -8698331990654004318
+    second: DxEfGb_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DxEfGb_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 413
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f986304147de090800000000000000
+      internalID: -8003613333462147312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 413
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bedab547c61c1f60800000000000000
+      internalID: 8006299282682076851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 412
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e8465498b5e2270800000000000000
+      internalID: 8227614214385339999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 413
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b42f3e0a3a8257e0800000000000000
+      internalID: -1778206920906169166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 413
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b208bd8563744e0800000000000000
+      internalID: -1997568154447893624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 413
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82f8bd20ee492f70800000000000000
+      internalID: 9162941641608721038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 312
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1f60f3005270eb0800000000000000
+      internalID: -4753790198678621702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 313
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b97b2a4baf7cfef0800000000000000
+      internalID: -73043120284272205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 313
+        width: 18
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20e59464831da9a0800000000000000
+      internalID: -6220294050984632278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 312
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1226ae5cf51c88a0800000000000000
+      internalID: -6301637604934278625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 313
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff21ec6d058bfc50800000000000000
+      internalID: 6700095163351511032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 313
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d5df4923891b3b0800000000000000
+      internalID: -5498446327027245692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 213
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61990723ba8c33d90800000000000000
+      internalID: -7119125948331419370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 213
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f22a447c33115f30800000000000000
+      internalID: 4562449047873004274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 212
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c35fdb99c831610800000000000000
+      internalID: 1590769685336767647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 213
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2b4fa01cde88660800000000000000
+      internalID: 7388416602069578446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 209
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d860f12fe4e32a60800000000000000
+      internalID: 7648208307922954450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 213
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c627d49fe97eaba0800000000000000
+      internalID: -6075784777374947645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 112
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d956ea65ee30cbc0800000000000000
+      internalID: -3764940133419820583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 113
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e721f31209f2b1330800000000000000
+      internalID: 3682589416385090174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 112
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c912696e6f39db340800000000000000
+      internalID: 4881220259779322268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_21
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 113
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19bf305d8a1343a0800000000000000
+      internalID: -6682468227848619748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 113
+        width: 96
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f973b717066d9be0800000000000000
+      internalID: -1468905722804471308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_23
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 113
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1de3e6f52e3a7210800000000000000
+      internalID: 1331444972618247451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e91218923390ec40800000000000000
+      internalID: 5539589387174681061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DxEfGb_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3d6a6e321594780800000000000000
+      internalID: -8698331990654004318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DxEfGb_0: -8003613333462147312
+      DxEfGb_1: 8006299282682076851
+      DxEfGb_10: 6700095163351511032
+      DxEfGb_11: -5498446327027245692
+      DxEfGb_12: -7119125948331419370
+      DxEfGb_13: 4562449047873004274
+      DxEfGb_14: 1590769685336767647
+      DxEfGb_15: 7388416602069578446
+      DxEfGb_16: 7648208307922954450
+      DxEfGb_17: -6075784777374947645
+      DxEfGb_18: -3764940133419820583
+      DxEfGb_19: 3682589416385090174
+      DxEfGb_2: 8227614214385339999
+      DxEfGb_20: 4881220259779322268
+      DxEfGb_21: -6682468227848619748
+      DxEfGb_22: -1468905722804471308
+      DxEfGb_23: 1331444972618247451
+      DxEfGb_24: 5539589387174681061
+      DxEfGb_25: -8698331990654004318
+      DxEfGb_3: -1778206920906169166
+      DxEfGb_4: -1997568154447893624
+      DxEfGb_5: 9162941641608721038
+      DxEfGb_6: -4753790198678621702
+      DxEfGb_7: -73043120284272205
+      DxEfGb_8: -6220294050984632278
+      DxEfGb_9: -6301637604934278625
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
