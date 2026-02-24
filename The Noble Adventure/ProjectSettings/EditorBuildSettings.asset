@@ -5,15 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenuScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: fe4dfa7a5eddb124eb8b83be3c7feab1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CreditScene.unity
     guid: 0bc636e844c91cc47a4d827653b83726
+  - enabled: 1
+    path: Assets/Scenes/DragAndDrop.unity
+    guid: 3b0461974444493429e22d904f934f54
+  - enabled: 1
+    path: Assets/Scenes/Grammer.unity
+    guid: 4375a1ead282e6446b3fab909d635268
+  - enabled: 1
+    path: Assets/Scenes/Animation.unity
+    guid: 2eeb11153731653459b7da248cd16b80
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

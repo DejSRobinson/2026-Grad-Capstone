@@ -12,9 +12,17 @@ public class DragAndDrop : MonoBehaviour
 
     Vector2 objectInitialPos;
 
+    //Spawning letters;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        /*letters = GetComponent<Spawning>();
+        foreach (GameObject letter in letters)
+        {
+            Debug.Log("hi");
+        }*/
+
+        //objectToDrag.transform.position.y = new Vector2(letterPos.letterRandomX, letterPos.letterRandomY);
         objectInitialPos = objectToDrag.transform.position;
     }
 
