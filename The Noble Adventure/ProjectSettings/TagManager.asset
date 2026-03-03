@@ -26,9 +26,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
   - 
   - 
   - 
@@ -42,29 +42,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
-    uniqueID: 3220394833
+  - name: Layer 1
+    uniqueID: 939332971
     locked: 0
-  - name: WalkInFront
-    uniqueID: 1454506559
+  - name: Layer 2
+    uniqueID: 4267509811
     locked: 0
-  - name: Collison
-    uniqueID: 3233355507
-    locked: 0
-  - name: Player
-    uniqueID: 3269582159
-    locked: 0
-  - name: WalkBehind
-    uniqueID: 471598561
-    locked: 0
-  - name: Decor
-    uniqueID: 2662466205
-    locked: 0
-  - name: layerUpper
-    uniqueID: 965978981
-    locked: 0
-  - name: layerLower
-    uniqueID: 638475495
+  - name: Layer 3
+    uniqueID: 3417485865
     locked: 0
   m_RenderingLayers:
   - Default

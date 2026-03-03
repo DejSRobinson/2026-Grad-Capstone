@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
+//using UnityEngine.InputSystem;
 
 public class PlayerMovement:MonoBehaviour
 {
@@ -50,7 +50,7 @@ public class PlayerMovement:MonoBehaviour
             }
         }
     }
-
+    /*
     // This method is called when you click a location on the map
     public void OnClick(InputAction.CallbackContext context)
     {
@@ -74,10 +74,10 @@ public class PlayerMovement:MonoBehaviour
                 targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
                 isMoving = true;
                 Debug.Log("Moving to " + targetPosition);
-            }*/
+            }
             // Convert mouse position to world position
             targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
             isMoving = true;
         }
-    }
+    }*/
 }
