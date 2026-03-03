@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 119f74dfa782a9640acc9d6bbc671dfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2763780796031106506
+    second: AnimationSheet_NPC1_0
+  - first:
+      213: 1374661228006647519
+    second: AnimationSheet_NPC1_1
+  - first:
+      213: -5146964938501517231
+    second: AnimationSheet_NPC1_2
+  - first:
+      213: -2038403474295559182
+    second: AnimationSheet_NPC1_3
+  - first:
+      213: -5154543968147329832
+    second: AnimationSheet_NPC1_4
+  - first:
+      213: 8003908411073886876
+    second: AnimationSheet_NPC1_5
+  - first:
+      213: -3420225293614179488
+    second: AnimationSheet_NPC1_6
+  - first:
+      213: 5464079072764602127
+    second: AnimationSheet_NPC1_7
+  - first:
+      213: 6041469575569102861
+    second: AnimationSheet_NPC1_8
+  - first:
+      213: 956618724377092830
+    second: AnimationSheet_NPC1_9
+  - first:
+      213: 4108936435164041738
+    second: AnimationSheet_NPC1_10
+  - first:
+      213: -3292003271758941672
+    second: AnimationSheet_NPC1_11
+  - first:
+      213: 2722339204694936426
+    second: AnimationSheet_NPC1_12
+  - first:
+      213: -4531230127763331304
+    second: AnimationSheet_NPC1_13
+  - first:
+      213: 8678685894657265728
+    second: AnimationSheet_NPC1_14
+  - first:
+      213: -3283343563454115130
+    second: AnimationSheet_NPC1_15
+  - first:
+      213: -3681225306101481976
+    second: AnimationSheet_NPC1_16
+  - first:
+      213: -5087771846802324689
+    second: AnimationSheet_NPC1_17
+  - first:
+      213: -8987546496489914992
+    second: AnimationSheet_NPC1_18
+  - first:
+      213: -5422373827396997809
+    second: AnimationSheet_NPC1_19
+  - first:
+      213: 8439552022585831981
+    second: AnimationSheet_NPC1_20
+  - first:
+      213: -3676833635930981648
+    second: AnimationSheet_NPC1_21
+  - first:
+      213: 6558364263291873799
+    second: AnimationSheet_NPC1_22
+  - first:
+      213: 5929126940367769276
+    second: AnimationSheet_NPC1_23
+  - first:
+      213: 8092539620489715029
+    second: AnimationSheet_NPC1_24
+  - first:
+      213: -5927605398583274810
+    second: AnimationSheet_NPC1_25
+  - first:
+      213: -435462519648076045
+    second: AnimationSheet_NPC1_26
+  - first:
+      213: -1100987476153426517
+    second: AnimationSheet_NPC1_27
+  - first:
+      213: -2946958662037562661
+    second: AnimationSheet_NPC1_28
+  - first:
+      213: -3653213154030437088
+    second: AnimationSheet_NPC1_29
+  - first:
+      213: 1354346922425647362
+    second: AnimationSheet_NPC1_30
+  - first:
+      213: 1214559749134799396
+    second: AnimationSheet_NPC1_31
+  - first:
+      213: 6932710606223275280
+    second: AnimationSheet_NPC1_32
+  - first:
+      213: 4504638831260773924
+    second: AnimationSheet_NPC1_33
+  - first:
+      213: 8616841156949442134
+    second: AnimationSheet_NPC1_34
+  - first:
+      213: 5663127409933235960
+    second: AnimationSheet_NPC1_35
+  - first:
+      213: 2166387093180613984
+    second: AnimationSheet_NPC1_36
+  - first:
+      213: -5507983002715229871
+    second: AnimationSheet_NPC1_37
+  - first:
+      213: -7426404646807759987
+    second: AnimationSheet_NPC1_38
+  - first:
+      213: 59317520060961640
+    second: AnimationSheet_NPC1_39
+  - first:
+      213: 3688146130854285862
+    second: AnimationSheet_NPC1_40
+  - first:
+      213: -1721905632872638462
+    second: AnimationSheet_NPC1_41
+  - first:
+      213: 8289507701076658617
+    second: AnimationSheet_NPC1_42
+  - first:
+      213: 1803380115969879067
+    second: AnimationSheet_NPC1_43
+  - first:
+      213: -360393123646799193
+    second: AnimationSheet_NPC1_44
+  - first:
+      213: 3849519597121283086
+    second: AnimationSheet_NPC1_45
+  - first:
+      213: 3039876062520399176
+    second: AnimationSheet_NPC1_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 255
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdfa78adfbea5620800000000000000
+      internalID: 2763780796031106506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 255
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6a6d58a17c31310800000000000000
+      internalID: 1374661228006647519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 223
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1501a3188ae4298b0800000000000000
+      internalID: -5146964938501517231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 223
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbe0bd07d226b3e0800000000000000
+      internalID: -2038403474295559182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 191
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc227722916778b0800000000000000
+      internalID: -5154543968147329832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 191
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af1d81b48931f60800000000000000
+      internalID: 8003908411073886876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 191
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b1252773be880d0800000000000000
+      internalID: -3420225293614179488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 191
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07a7cc77fe44db40800000000000000
+      internalID: 5464079072764602127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 159
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d085025e19c97d350800000000000000
+      internalID: 6041469575569102861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 159
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2ebf359a7964d00800000000000000
+      internalID: 956618724377092830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 159
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02dc9eeaefd50930800000000000000
+      internalID: 4108936435164041738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 159
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812726357747052d0800000000000000
+      internalID: -3292003271758941672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 159
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b06f54511b7c520800000000000000
+      internalID: 2722339204694936426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 159
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8176e1fc436dd11c0800000000000000
+      internalID: -4531230127763331304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 159
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0405d3ce6d2e07870800000000000000
+      internalID: 8678685894657265728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 159
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c290c8cc683f62d0800000000000000
+      internalID: -3283343563454115130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e74ab8619a9ecc0800000000000000
+      internalID: -3681225306101481976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f234d15267a9469b0800000000000000
+      internalID: -5087771846802324689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 127
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d796a5412d54380800000000000000
+      internalID: -8987546496489914992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 97
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d60a2abbbdfb4b0800000000000000
+      internalID: -5422373827396997809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 127
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2278a199df4f1570800000000000000
+      internalID: 8439552022585831981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 76
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa3020f94349fcc0800000000000000
+      internalID: -3676833635930981648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 127
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ae02dbc8df30b50800000000000000
+      internalID: 6558364263291873799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 98
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbec1d4d98d784250800000000000000
+      internalID: 5929126940367769276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 127
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d5012a8e97e4070800000000000000
+      internalID: 8092539620489715029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c291c8bb4aecbda0800000000000000
+      internalID: -5927605398583274810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 95
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe3163452de4f9f0800000000000000
+      internalID: -435462519648076045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 95
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad98b549b188b0f0800000000000000
+      internalID: -1100987476153426517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 95
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda9d75e5bc4a17d0800000000000000
+      internalID: -2946958662037562661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_29
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 95
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d3b31fdfd2d4dc0800000000000000
+      internalID: -3653213154030437088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20103dda95b9bc210800000000000000
+      internalID: 1354346922425647362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 63
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422daa528abfad010800000000000000
+      internalID: 1214559749134799396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0157586b09fe53060800000000000000
+      internalID: 6932710606223275280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 31
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42eaab28621b38e30800000000000000
+      internalID: 4504638831260773924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65effe5d06b259770800000000000000
+      internalID: 8616841156949442134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 31
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f639d2ff58779e40800000000000000
+      internalID: 5663127409933235960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065850f459d801e10800000000000000
+      internalID: 2166387093180613984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_37
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151f44e34a6bf83b0800000000000000
+      internalID: -5507983002715229871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_38
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 31
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8396bc025c10f890800000000000000
+      internalID: -7426404646807759987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_39
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 31
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863d03068fcb2d000800000000000000
+      internalID: 59317520060961640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_40
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6221d498d5dee2330800000000000000
+      internalID: 3688146130854285862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208d1ef23ff8a18e0800000000000000
+      internalID: -1721905632872638462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_42
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b90a8d955f3a0370800000000000000
+      internalID: 8289507701076658617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_43
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c236729a4e60910800000000000000
+      internalID: 1803380115969879067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_44
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a20a8d0d50affaf0800000000000000
+      internalID: -360393123646799193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_45
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04a15e8dad3c6530800000000000000
+      internalID: 3849519597121283086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_NPC1_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845ddb34c2fcf2a20800000000000000
+      internalID: 3039876062520399176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AnimationSheet_NPC1_0: 2763780796031106506
+      AnimationSheet_NPC1_1: 1374661228006647519
+      AnimationSheet_NPC1_10: 4108936435164041738
+      AnimationSheet_NPC1_11: -3292003271758941672
+      AnimationSheet_NPC1_12: 2722339204694936426
+      AnimationSheet_NPC1_13: -4531230127763331304
+      AnimationSheet_NPC1_14: 8678685894657265728
+      AnimationSheet_NPC1_15: -3283343563454115130
+      AnimationSheet_NPC1_16: -3681225306101481976
+      AnimationSheet_NPC1_17: -5087771846802324689
+      AnimationSheet_NPC1_18: -8987546496489914992
+      AnimationSheet_NPC1_19: -5422373827396997809
+      AnimationSheet_NPC1_2: -5146964938501517231
+      AnimationSheet_NPC1_20: 8439552022585831981
+      AnimationSheet_NPC1_21: -3676833635930981648
+      AnimationSheet_NPC1_22: 6558364263291873799
+      AnimationSheet_NPC1_23: 5929126940367769276
+      AnimationSheet_NPC1_24: 8092539620489715029
+      AnimationSheet_NPC1_25: -5927605398583274810
+      AnimationSheet_NPC1_26: -435462519648076045
+      AnimationSheet_NPC1_27: -1100987476153426517
+      AnimationSheet_NPC1_28: -2946958662037562661
+      AnimationSheet_NPC1_29: -3653213154030437088
+      AnimationSheet_NPC1_3: -2038403474295559182
+      AnimationSheet_NPC1_30: 1354346922425647362
+      AnimationSheet_NPC1_31: 1214559749134799396
+      AnimationSheet_NPC1_32: 6932710606223275280
+      AnimationSheet_NPC1_33: 4504638831260773924
+      AnimationSheet_NPC1_34: 8616841156949442134
+      AnimationSheet_NPC1_35: 5663127409933235960
+      AnimationSheet_NPC1_36: 2166387093180613984
+      AnimationSheet_NPC1_37: -5507983002715229871
+      AnimationSheet_NPC1_38: -7426404646807759987
+      AnimationSheet_NPC1_39: 59317520060961640
+      AnimationSheet_NPC1_4: -5154543968147329832
+      AnimationSheet_NPC1_40: 3688146130854285862
+      AnimationSheet_NPC1_41: -1721905632872638462
+      AnimationSheet_NPC1_42: 8289507701076658617
+      AnimationSheet_NPC1_43: 1803380115969879067
+      AnimationSheet_NPC1_44: -360393123646799193
+      AnimationSheet_NPC1_45: 3849519597121283086
+      AnimationSheet_NPC1_46: 3039876062520399176
+      AnimationSheet_NPC1_5: 8003908411073886876
+      AnimationSheet_NPC1_6: -3420225293614179488
+      AnimationSheet_NPC1_7: 5464079072764602127
+      AnimationSheet_NPC1_8: 6041469575569102861
+      AnimationSheet_NPC1_9: 956618724377092830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1933 @@
+fileFormatVersion: 2
+guid: 9271be669ee610a439c446bacbd521dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4514276900186272361
+    second: Yoster Island Font_0
+  - first:
+      213: 4251662844632889914
+    second: Yoster Island Font_1
+  - first:
+      213: 6629940982941978870
+    second: Yoster Island Font_2
+  - first:
+      213: -2667391078204460161
+    second: Yoster Island Font_3
+  - first:
+      213: -5586108400333101
+    second: Yoster Island Font_4
+  - first:
+      213: 823400055066100004
+    second: Yoster Island Font_5
+  - first:
+      213: -3012935582225595988
+    second: Yoster Island Font_6
+  - first:
+      213: -4912209804992865481
+    second: Yoster Island Font_7
+  - first:
+      213: 2509939249106437977
+    second: Yoster Island Font_8
+  - first:
+      213: -1253853160146914447
+    second: Yoster Island Font_9
+  - first:
+      213: -8675429324766048869
+    second: Yoster Island Font_10
+  - first:
+      213: 1203517563713816730
+    second: Yoster Island Font_11
+  - first:
+      213: -5913242974658693455
+    second: Yoster Island Font_12
+  - first:
+      213: 2317630548610236821
+    second: Yoster Island Font_13
+  - first:
+      213: 3287684138619839326
+    second: Yoster Island Font_14
+  - first:
+      213: 5934569783590463933
+    second: Yoster Island Font_15
+  - first:
+      213: 473760264169974702
+    second: Yoster Island Font_16
+  - first:
+      213: -1596277446131048469
+    second: Yoster Island Font_17
+  - first:
+      213: -609571917248343008
+    second: Yoster Island Font_18
+  - first:
+      213: -2139535099985760517
+    second: Yoster Island Font_19
+  - first:
+      213: 8273508155750919823
+    second: Yoster Island Font_20
+  - first:
+      213: -7751497221112961230
+    second: Yoster Island Font_21
+  - first:
+      213: 4053477395226575997
+    second: Yoster Island Font_22
+  - first:
+      213: -7397652996955601775
+    second: Yoster Island Font_23
+  - first:
+      213: -1318266409616722758
+    second: Yoster Island Font_24
+  - first:
+      213: -8662137043145880023
+    second: Yoster Island Font_25
+  - first:
+      213: -4047332060460864770
+    second: Yoster Island Font_26
+  - first:
+      213: -1736504385645013629
+    second: Yoster Island Font_27
+  - first:
+      213: -7265645116737664732
+    second: Yoster Island Font_28
+  - first:
+      213: -741133174136436197
+    second: Yoster Island Font_29
+  - first:
+      213: -4807363527027626898
+    second: Yoster Island Font_30
+  - first:
+      213: 5014893580542419104
+    second: Yoster Island Font_31
+  - first:
+      213: 6715550665281465003
+    second: Yoster Island Font_32
+  - first:
+      213: 2547624082890891358
+    second: Yoster Island Font_33
+  - first:
+      213: -4114493064076877254
+    second: Yoster Island Font_34
+  - first:
+      213: -5828594593011754867
+    second: Yoster Island Font_35
+  - first:
+      213: 2404231345421745332
+    second: Yoster Island Font_36
+  - first:
+      213: 1332866767564286651
+    second: Yoster Island Font_37
+  - first:
+      213: 7469030259925392995
+    second: Yoster Island Font_38
+  - first:
+      213: -2710253841073029532
+    second: Yoster Island Font_39
+  - first:
+      213: 2225256245868829912
+    second: Yoster Island Font_40
+  - first:
+      213: 4002988733880327386
+    second: Yoster Island Font_41
+  - first:
+      213: -9049510919272410418
+    second: Yoster Island Font_42
+  - first:
+      213: -5292487227053298583
+    second: Yoster Island Font_43
+  - first:
+      213: 8726476987451977065
+    second: Yoster Island Font_44
+  - first:
+      213: 7158835975927372823
+    second: Yoster Island Font_45
+  - first:
+      213: -3504571404370455318
+    second: Yoster Island Font_46
+  - first:
+      213: 380022706560525828
+    second: Yoster Island Font_47
+  - first:
+      213: 3005110209327306540
+    second: Yoster Island Font_48
+  - first:
+      213: -5834709231272611103
+    second: Yoster Island Font_49
+  - first:
+      213: 4551815057222948913
+    second: Yoster Island Font_50
+  - first:
+      213: -3520050833622393983
+    second: Yoster Island Font_51
+  - first:
+      213: -902459829131388921
+    second: Yoster Island Font_52
+  - first:
+      213: -6375762191891079832
+    second: Yoster Island Font_53
+  - first:
+      213: -7821339558581809224
+    second: Yoster Island Font_54
+  - first:
+      213: -2243464864507411265
+    second: Yoster Island Font_55
+  - first:
+      213: 7231296509712499040
+    second: Yoster Island Font_56
+  - first:
+      213: -3695557567403346837
+    second: Yoster Island Font_57
+  - first:
+      213: 2058320520929012060
+    second: Yoster Island Font_58
+  - first:
+      213: -2217302352847699345
+    second: Yoster Island Font_59
+  - first:
+      213: 4885911322087398739
+    second: Yoster Island Font_60
+  - first:
+      213: -6219251028487718810
+    second: Yoster Island Font_61
+  - first:
+      213: 6332451038409557395
+    second: Yoster Island Font_62
+  - first:
+      213: -1634620799300474845
+    second: Yoster Island Font_63
+  - first:
+      213: 789133351615555025
+    second: Yoster Island Font_64
+  - first:
+      213: 851373583143510735
+    second: Yoster Island Font_65
+  - first:
+      213: 1940448138563571670
+    second: Yoster Island Font_66
+  - first:
+      213: -6453858604167526797
+    second: Yoster Island Font_67
+  - first:
+      213: -878391639679262005
+    second: Yoster Island Font_68
+  - first:
+      213: 876040778240477074
+    second: Yoster Island Font_69
+  - first:
+      213: 3724685692450215559
+    second: Yoster Island Font_70
+  - first:
+      213: -6946029048814575806
+    second: Yoster Island Font_71
+  - first:
+      213: -1720950148435886229
+    second: Yoster Island Font_72
+  - first:
+      213: -7429110525549971948
+    second: Yoster Island Font_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yoster Island Font_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 484
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962ba5d4ceee5ae30800000000000000
+      internalID: 4514276900186272361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 484
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3af117b4d0f00b30800000000000000
+      internalID: 4251662844632889914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 484
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f09f027238420c50800000000000000
+      internalID: 6629940982941978870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 484
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73b39262f58bfad0800000000000000
+      internalID: -2667391078204460161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 484
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de0f19c6772ceff0800000000000000
+      internalID: -5586108400333101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 484
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421804eccfd4d6b00800000000000000
+      internalID: 823400055066100004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_6
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 484
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca10f4a1d07ef26d0800000000000000
+      internalID: -3012935582225595988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 484
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b9537553354dbb0800000000000000
+      internalID: -4912209804992865481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_8
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 484
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957ccc6e27815d220800000000000000
+      internalID: 2509939249106437977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_9
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 484
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17331fca13b699ee0800000000000000
+      internalID: -1253853160146914447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_10
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 484
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d00575efeaa9780800000000000000
+      internalID: -8675429324766048869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 484
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a980b1209d0c3b010800000000000000
+      internalID: 1203517563713816730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_12
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 469
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6f4e028d0ffeda0800000000000000
+      internalID: -5913242974658693455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_13
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 484
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591c18264b0e92020800000000000000
+      internalID: 2317630548610236821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_14
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 484
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e532f102e4330ad20800000000000000
+      internalID: 3287684138619839326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 349
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db92da586c3db5250800000000000000
+      internalID: 5934569783590463933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 349
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef1464ce12e8d9e0800000000000000
+      internalID: -1596277446131048469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 349
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe6edc8928de42e0800000000000000
+      internalID: -2139535099985760517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 349
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ea4dd25d761d270800000000000000
+      internalID: 8273508155750919823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 349
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237622ab8562d6490800000000000000
+      internalID: -7751497221112961230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_22
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 349
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d744e87f638d04830800000000000000
+      internalID: 4053477395226575997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_23
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 349
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1948bd03bc1465990800000000000000
+      internalID: -7397652996955601775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_24
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 349
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab437775fa394bde0800000000000000
+      internalID: -1318266409616722758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_25
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 349
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e8983d048e9c780800000000000000
+      internalID: -8662137043145880023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_26
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 349
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa2e284fecf4d7c0800000000000000
+      internalID: -4047332060460864770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 349
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38598be2672b6e7e0800000000000000
+      internalID: -1736504385645013629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 334
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429ccc8e24e3b2b90800000000000000
+      internalID: -7265645116737664732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_29
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 349
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a07580e47f6b5f0800000000000000
+      internalID: -741133174136436197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_30
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 334
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c6959b750d84db0800000000000000
+      internalID: -4807363527027626898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 211
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a02e96342b789540800000000000000
+      internalID: 5014893580542419104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 204
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa6d33efbd623d50800000000000000
+      internalID: 6715550665281465003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_33
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 218
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5021f10b9afa5320800000000000000
+      internalID: 2547624082890891358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 218
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32a3e49b5266e6c0800000000000000
+      internalID: -4114493064076877254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_35
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 218
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8895cf491cac1fa0800000000000000
+      internalID: -5828594593011754867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_36
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 218
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcf8b5abab8d5120800000000000000
+      internalID: 2404231345421745332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_37
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 218
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaa795634b4f7210800000000000000
+      internalID: 1332866767564286651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_38
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 218
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e1f73e27357a760800000000000000
+      internalID: 7469030259925392995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_39
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 218
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e34b7bd7e336ad0800000000000000
+      internalID: -2710253841073029532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_40
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 218
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc1b3504c2b1ee10800000000000000
+      internalID: 2225256245868829912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_41
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 218
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcd3d27b097d8730800000000000000
+      internalID: 4002988733880327386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_42
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 218
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2dfb9e3cda96280800000000000000
+      internalID: -9049510919272410418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_43
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 218
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c223568ee4d86b0800000000000000
+      internalID: -5292487227053298583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_44
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 218
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d22b1d59caa1970800000000000000
+      internalID: 8726476987451977065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_45
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 218
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c1076146b495360800000000000000
+      internalID: 7158835975927372823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_46
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 218
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4d18030e24d5fc0800000000000000
+      internalID: -3504571404370455318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4066f1f53ac164500800000000000000
+      internalID: 380022706560525828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_48
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 88
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c279ad940db44b920800000000000000
+      internalID: 3005110209327306540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_49
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2bd462ed2f60fa0800000000000000
+      internalID: -5834709231272611103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_50
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 94
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1385c019dab4b2f30800000000000000
+      internalID: 4551815057222948913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 93
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b9e96ba64462fc0800000000000000
+      internalID: -3520050833622393983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_52
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 94
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708509c1191d973f0800000000000000
+      internalID: -902459829131388921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_53
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 94
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d57f3111eb487a0800000000000000
+      internalID: -6375762191891079832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_54
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 94
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf45075c15057390800000000000000
+      internalID: -7821339558581809224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_55
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 92
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb447f4979c9dd0e0800000000000000
+      internalID: -2243464864507411265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_56
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 92
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0618feeccd9ba5460800000000000000
+      internalID: 7231296509712499040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_57
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 88
+        width: 79
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64baebe8fdb6bcc0800000000000000
+      internalID: -3695557567403346837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_58
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59eedbbb9f909c10800000000000000
+      internalID: 2058320520929012060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_59
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 100
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6200e2024f8a31e0800000000000000
+      internalID: -2217302352847699345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_60
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d1415f57e3ec340800000000000000
+      internalID: 4885911322087398739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_61
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668b10ef328c0b9a0800000000000000
+      internalID: -6219251028487718810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_62
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 100
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39584fd2ba261e750800000000000000
+      internalID: 6332451038409557395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_63
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328ea3b2b09a059e0800000000000000
+      internalID: -1634620799300474845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_64
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5657f2a9093fa00800000000000000
+      internalID: 789133351615555025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_65
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 100
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2ab6a53cfa0db00800000000000000
+      internalID: 851373583143510735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_66
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 100
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df46241d4bddea10800000000000000
+      internalID: 1940448138563571670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_67
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 98
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3760ff32bc94f66a0800000000000000
+      internalID: -6453858604167526797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_16
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 350
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05de5bbfb07753e459135d6a8dd4e8d7
+      internalID: 473760264169974702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_18
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 348
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3171d87cbc48ddd4f84d76f4e4d2dee2
+      internalID: -609571917248343008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yoster Island Font_68
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 483
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864788d99d351ae4bb92c0a0a19b9b5e
+      internalID: -878391639679262005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8552db074924f784f96171d8e3fdcc07
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Yoster Island Font_0: 4514276900186272361
+      Yoster Island Font_1: 4251662844632889914
+      Yoster Island Font_10: -8675429324766048869
+      Yoster Island Font_11: 1203517563713816730
+      Yoster Island Font_12: -5913242974658693455
+      Yoster Island Font_13: 2317630548610236821
+      Yoster Island Font_14: 3287684138619839326
+      Yoster Island Font_15: 5934569783590463933
+      Yoster Island Font_16: 473760264169974702
+      Yoster Island Font_17: -1596277446131048469
+      Yoster Island Font_18: -609571917248343008
+      Yoster Island Font_19: -2139535099985760517
+      Yoster Island Font_2: 6629940982941978870
+      Yoster Island Font_20: 8273508155750919823
+      Yoster Island Font_21: -7751497221112961230
+      Yoster Island Font_22: 4053477395226575997
+      Yoster Island Font_23: -7397652996955601775
+      Yoster Island Font_24: -1318266409616722758
+      Yoster Island Font_25: -8662137043145880023
+      Yoster Island Font_26: -4047332060460864770
+      Yoster Island Font_27: -1736504385645013629
+      Yoster Island Font_28: -7265645116737664732
+      Yoster Island Font_29: -741133174136436197
+      Yoster Island Font_3: -2667391078204460161
+      Yoster Island Font_30: -4807363527027626898
+      Yoster Island Font_31: 5014893580542419104
+      Yoster Island Font_32: 6715550665281465003
+      Yoster Island Font_33: 2547624082890891358
+      Yoster Island Font_34: -4114493064076877254
+      Yoster Island Font_35: -5828594593011754867
+      Yoster Island Font_36: 2404231345421745332
+      Yoster Island Font_37: 1332866767564286651
+      Yoster Island Font_38: 7469030259925392995
+      Yoster Island Font_39: -2710253841073029532
+      Yoster Island Font_4: -5586108400333101
+      Yoster Island Font_40: 2225256245868829912
+      Yoster Island Font_41: 4002988733880327386
+      Yoster Island Font_42: -9049510919272410418
+      Yoster Island Font_43: -5292487227053298583
+      Yoster Island Font_44: 8726476987451977065
+      Yoster Island Font_45: 7158835975927372823
+      Yoster Island Font_46: -3504571404370455318
+      Yoster Island Font_47: 380022706560525828
+      Yoster Island Font_48: 3005110209327306540
+      Yoster Island Font_49: -5834709231272611103
+      Yoster Island Font_5: 823400055066100004
+      Yoster Island Font_50: 4551815057222948913
+      Yoster Island Font_51: -3520050833622393983
+      Yoster Island Font_52: -902459829131388921
+      Yoster Island Font_53: -6375762191891079832
+      Yoster Island Font_54: -7821339558581809224
+      Yoster Island Font_55: -2243464864507411265
+      Yoster Island Font_56: 7231296509712499040
+      Yoster Island Font_57: -3695557567403346837
+      Yoster Island Font_58: 2058320520929012060
+      Yoster Island Font_59: -2217302352847699345
+      Yoster Island Font_6: -3012935582225595988
+      Yoster Island Font_60: 4885911322087398739
+      Yoster Island Font_61: -6219251028487718810
+      Yoster Island Font_62: 6332451038409557395
+      Yoster Island Font_63: -1634620799300474845
+      Yoster Island Font_64: 789133351615555025
+      Yoster Island Font_65: 851373583143510735
+      Yoster Island Font_66: 1940448138563571670
+      Yoster Island Font_67: -6453858604167526797
+      Yoster Island Font_68: -878391639679262005
+      Yoster Island Font_69: 876040778240477074
+      Yoster Island Font_7: -4912209804992865481
+      Yoster Island Font_70: 3724685692450215559
+      Yoster Island Font_71: -6946029048814575806
+      Yoster Island Font_72: -1720950148435886229
+      Yoster Island Font_73: -7429110525549971948
+      Yoster Island Font_8: 2509939249106437977
+      Yoster Island Font_9: -1253853160146914447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 3
   tags:
   - NPC
-  - Chest
   layers:
   - Default
   - TransparentFX
@@ -60,6 +59,12 @@ TagManager:
     locked: 0
   - name: Decor
     uniqueID: 2662466205
+    locked: 0
+  - name: layerUpper
+    uniqueID: 965978981
+    locked: 0
+  - name: layerLower
+    uniqueID: 638475495
     locked: 0
   m_RenderingLayers:
   - Default
