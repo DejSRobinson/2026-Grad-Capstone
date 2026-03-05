@@ -1,17 +1,25 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-//using UnityEngine.InputSystem;
-using Unity.VisualScripting;
+using UnityEngine.InputSystem;
 
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRage = null;
-    public GameObject interactionIcon;
+    //public GameObject interactionIcon;
+    public Canvas interactionHint;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        interactionIcon.SetActive(false);
+        //interactionIcon.SetActive(false);
+        interactionHint.gameObject.SetActive(false);
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+        {
+            interactableInRage?.Interact();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,7 +27,8 @@ public class InteractionDetector : MonoBehaviour
         if(collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {
             interactableInRage = interactable;
-            interactionIcon.SetActive(true);
+            //interactionIcon.SetActive(true);
+            interactionHint.gameObject.SetActive(true);
 
         }
     }
@@ -28,7 +37,8 @@ public class InteractionDetector : MonoBehaviour
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRage)
         {
             interactableInRage = null;
-            interactionIcon.SetActive(false);
+            //interactionIcon.SetActive(false);
+            interactionHint.gameObject.SetActive(false);
         }
     }
 }
