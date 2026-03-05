@@ -6,7 +6,7 @@ public class NPC : MonoBehaviour, IInteractable
     public bool IsShown { get; private set; }
     public string NPCId { get; private set; }
 
-
+    //public Canvas[] textBox;
     public Canvas textBox;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
