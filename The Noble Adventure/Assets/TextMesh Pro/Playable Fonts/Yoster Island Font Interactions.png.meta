@@ -1400,10 +1400,10 @@ TextureImporter:
       name: Yoster Island Font_51
       rect:
         serializedVersion: 2
-        x: 336
+        x: 346
         y: 93
-        width: 37
-        height: 57
+        width: 19
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1414,72 +1414,6 @@ TextureImporter:
       bones: []
       spriteID: 18b9e96ba64462fc0800000000000000
       internalID: -3520050833622393983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yoster Island Font_52
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 94
-        width: 40
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 708509c1191d973f0800000000000000
-      internalID: -902459829131388921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yoster Island Font_53
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 94
-        width: 38
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86d57f3111eb487a0800000000000000
-      internalID: -6375762191891079832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yoster Island Font_54
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 94
-        width: 38
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bf45075c15057390800000000000000
-      internalID: -7821339558581809224
       vertices: []
       indices: 
       edges: []
@@ -1511,9 +1445,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 566
-        y: 92
+        y: 94
         width: 21
-        height: 58
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1823,7 +1757,7 @@ TextureImporter:
         width: 52
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
