@@ -2,49 +2,59 @@ using UnityEngine;
 
 public class DragAndDrop : MonoBehaviour
 {
-    //Varibles Used
     public GameObject objectToDrag;
     public GameObject objectToDragPos;
-
     public float dragDistance;
-
     public bool isLocked;
+    public Camera mainCamera;
 
     Vector2 objectInitialPos;
+    private bool isDragging = false;
 
-    //Spawning letters;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        /*letters = GetComponent<Spawning>();
-        foreach (GameObject letter in letters)
-        {
-            Debug.Log("hi");
-        }*/
-
-        //objectToDrag.transform.position.y = new Vector2(letterPos.letterRandomX, letterPos.letterRandomY);
         objectInitialPos = objectToDrag.transform.position;
+
+        if (mainCamera == null)
+            mainCamera = Camera.main;
     }
 
     public void DragObject()
     {
         if (!isLocked)
         {
-            objectToDrag.transform.position = Input.mousePosition;
+            isDragging = true;
+        }
+    }
+
+    void Update()
+    {
+        if (isDragging && !isLocked)
+        {
+            // Simple drag without offset (object center follows mouse)
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z = -mainCamera.transform.position.z;
+            objectToDrag.transform.position = mainCamera.ScreenToWorldPoint(mousePos);
         }
     }
 
     public void DropObject()
     {
-        float distance = Vector3.Distance(objectToDrag.transform.position, objectToDragPos.transform.position);
-        if (distance < dragDistance)
+        if (isDragging)
         {
-            isLocked = true;
-            objectToDrag.transform.position = objectToDragPos.transform.position;
-        }
-        else
-        {
-            objectToDrag.transform.position = objectInitialPos;
+            isDragging = false;
+
+            float distance = Vector3.Distance(objectToDrag.transform.position, objectToDragPos.transform.position);
+
+            if (distance < dragDistance)
+            {
+                isLocked = true;
+                objectToDrag.transform.position = objectToDragPos.transform.position;
+            }
+            else
+            {
+                objectToDrag.transform.position = objectInitialPos;
+            }
         }
     }
 }

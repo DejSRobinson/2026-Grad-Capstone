@@ -8,6 +8,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     //public Canvas[] textBox;
     public Canvas textBox;
+    public Canvas indicator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,6 +22,7 @@ public class NPC : MonoBehaviour, IInteractable
         if (Input.GetKey(KeyCode.E))
         {
             textBox.gameObject.SetActive(true);
+            indicator.gameObject.SetActive(false);
         }
     }
 

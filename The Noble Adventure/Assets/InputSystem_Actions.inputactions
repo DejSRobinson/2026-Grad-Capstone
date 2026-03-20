@@ -126,6 +126,17 @@
                     "name": "",
                     "id": "12dd9234-dd5c-430e-aa96-e3d7ddf11864",
                     "path": "<Keyboard>/e",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3eda7d7-e9e8-4163-8d1d-02f1e4966e08",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
