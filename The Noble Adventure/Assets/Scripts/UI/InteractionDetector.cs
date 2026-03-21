@@ -6,6 +6,7 @@ public class InteractionDetector : MonoBehaviour
     private IInteractable interactableInRage = null;
     //public GameObject interactionIcon;
     public Canvas interactionHint;
+    public Canvas textbox;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,7 +30,6 @@ public class InteractionDetector : MonoBehaviour
             interactableInRage = interactable;
             //interactionIcon.SetActive(true);
             interactionHint.gameObject.SetActive(true);
-
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -39,6 +39,7 @@ public class InteractionDetector : MonoBehaviour
             interactableInRage = null;
             //interactionIcon.SetActive(false);
             interactionHint.gameObject.SetActive(false);
+            textbox.gameObject.SetActive(false);
         }
     }
 }
