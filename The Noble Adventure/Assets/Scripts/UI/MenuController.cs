@@ -34,9 +34,9 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
-    public void ReturnToMenu()
+    public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("MainMenuScene");
     }
 
     public void ExitGame()
