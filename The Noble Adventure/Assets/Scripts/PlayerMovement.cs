@@ -50,34 +50,4 @@ public class PlayerMovement:MonoBehaviour
             }
         }
     }
-    /*
-    // This method is called when you click a location on the map
-    public void OnClick(InputAction.CallbackContext context)
-    {
-        Vector2 mousePos = Mouse.current.position.ReadValue();
-        //Ray ray = Camera.main.ScreenPointToRay(mousePos);
-        // Only process when the mouse button is pressed (not released)
-        if (context.performed)
-        {
-            /*
-            if (Physics.Raycast(ray, out RaycastHit hit))
-            {
-                if (hit.collider.tag == "Chest")
-                {
-                    Debug.Log("Opening Chest");
-                }
-            }
-            
-            else
-            {
-                // Convert mouse position to world position
-                targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
-                isMoving = true;
-                Debug.Log("Moving to " + targetPosition);
-            }
-            // Convert mouse position to world position
-            targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
-            isMoving = true;
-        }
-    }*/
 }

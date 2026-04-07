@@ -2,43 +2,30 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class QuestObjects : MonoBehaviour, IInteractable
+public class QuestObject2 : MonoBehaviour, IInteractable
 {
     //Varibles Used
     public bool IsShown { get; private set; }
 
     public Canvas indicator;
-    public GameObject questTask1;
-    public GameObject questTask2;
+    public GameObject questTask;
     public Canvas complete;
 
-    public bool questComplete1;
-    public bool questComplete2;
+    public bool questComplete;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        questComplete1 = false;
-        questComplete2 = false;
+        questComplete = false;
     }
 
     void Update()
     {
         if (Input.GetKey(KeyCode.R))
         {
-            questTask1.SetActive(false);
+            questTask.SetActive(false);
             indicator.gameObject.SetActive(false);
-            questComplete1 = true;
-
-            complete.gameObject.SetActive(true);
-            Invoke("close", 1.0f);
-        }
-
-        if (Input.GetKey(KeyCode.C))
-        {
-            questTask2.SetActive(false);
-            indicator.gameObject.SetActive(false);
-            questComplete2 = true;
+            questComplete = true;
 
             complete.gameObject.SetActive(true);
             Invoke("close", 1.0f);

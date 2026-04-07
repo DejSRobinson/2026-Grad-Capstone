@@ -27,27 +27,38 @@ public class NPC : MonoBehaviour, IInteractable
         if (Input.GetKey(KeyCode.E))
         {
             textBox[0].gameObject.SetActive(true);
+            textBox[2].gameObject.SetActive(true);
             indicator.gameObject.SetActive(false);
         }
-        
-        if (Input.GetKey(KeyCode.E) && questObject.questComplete == true)
+
+        if (questObject.questComplete1 == true)
         {
             textBox[0].gameObject.SetActive(false);
             textBox[1].gameObject.SetActive(true);
+        }
+
+        if (questObject.questComplete2 == true)
+        {
+            textBox[2].gameObject.SetActive(false);
+            textBox[3].gameObject.SetActive(true);
         }
     }
 
     int index = 0;
     public void OnButtonClick()
     {
-        if (index != (npcDialog.Length-1))
-        { 
+        if (index != (npcDialog.Length - 1))
+        {
             npcDialog[index].gameObject.SetActive(false);
             npcDialog[index + 1].gameObject.SetActive(true);
         }
         else
         {
-            SceneManager.LoadScene("CreditScene");
+            npcDialog[index].gameObject.SetActive(true);
+            if ((questObject.questComplete1 && questObject.questComplete2) == true)
+            {
+                SceneManager.LoadScene("CreditScene");
+            }
         }
 
         index++;

@@ -7,8 +7,8 @@ public class InteractionDetector : MonoBehaviour
     private IInteractable interactableInRage = null;
     public Canvas interactionHint;
     public Canvas interactionItem;
-    public Canvas textbox;
-    public string ObjectId { get; private set; }
+    public Canvas interactionItem2;
+    public Canvas[] textbox;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,6 +16,7 @@ public class InteractionDetector : MonoBehaviour
         //interactionIcon.SetActive(false);
         interactionHint.gameObject.SetActive(false);
         interactionItem.gameObject.SetActive(false);
+        interactionItem2.gameObject.SetActive(false);
     }
 
     public void OnInteract(InputAction.CallbackContext context)
@@ -35,6 +36,11 @@ public class InteractionDetector : MonoBehaviour
                 interactableInRage = interactable;
                 interactionItem.gameObject.SetActive(true);
             }
+            else if (collision.CompareTag("pillar"))
+            {
+                interactableInRage = interactable;
+                interactionItem2.gameObject.SetActive(true);
+            }
             else
             {
                 interactableInRage = interactable;
@@ -48,7 +54,11 @@ public class InteractionDetector : MonoBehaviour
         {
             if (collision.CompareTag("flowers"))
             {
-
+                interactableInRage = null;
+                interactionItem.gameObject.SetActive(false);
+            }
+            else if (collision.CompareTag("pillar"))
+            {
                 interactableInRage = null;
                 interactionItem.gameObject.SetActive(false);
             }
@@ -56,7 +66,10 @@ public class InteractionDetector : MonoBehaviour
             {
                 interactableInRage = null;
                 interactionHint.gameObject.SetActive(false);
-                textbox.gameObject.SetActive(false);
+                for (int i = 0; i < textbox.Length; i++)
+                {
+                    textbox[i].gameObject.SetActive(false);
+                }
             }
         }
     }
