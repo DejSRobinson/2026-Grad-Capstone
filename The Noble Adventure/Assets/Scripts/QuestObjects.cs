@@ -13,6 +13,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public Canvas complete;
 
     public bool questComplete;
+    GameObject collision;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,14 +24,23 @@ public class QuestObjects : MonoBehaviour, IInteractable
 
     void Update()
     {
+        collision = InteractionDetector.hitObject;
+
         if (Input.GetKey(KeyCode.R))
         {
-            questTask.SetActive(false);
-            indicator.gameObject.SetActive(false);
-            questComplete = true;
+            if (collision != null && collision == gameObject)
+            {
+                questTask.SetActive(false);
+                indicator.gameObject.SetActive(false);
+                questComplete = true;
 
-            complete.gameObject.SetActive(true);
-            Invoke("close", 1.0f);
+                complete.gameObject.SetActive(true);
+                Invoke("close", 1.0f);
+            }
+            else if (collision == null)
+            {
+                Debug.Log("Nothing to collect - no object in range");
+            }
         }
     }
 

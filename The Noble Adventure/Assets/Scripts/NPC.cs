@@ -40,14 +40,14 @@ public class NPC : MonoBehaviour, IInteractable
     int index = 0;
     public void OnButtonClick()
     {
-        if (index != (npcDialog.Length-1))
-        { 
+        if (index != (npcDialog.Length - 1))
+        {
             npcDialog[index].gameObject.SetActive(false);
             npcDialog[index + 1].gameObject.SetActive(true);
         }
-        else
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GameScene"))
         {
-            SceneManager.LoadScene("CreditScene");
+            SceneManager.LoadScene("GameSceneQuest2");
         }
 
         index++;

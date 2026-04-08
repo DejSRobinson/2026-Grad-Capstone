@@ -10,10 +10,11 @@ public class InteractionDetector : MonoBehaviour
     public Canvas textbox;
     public string ObjectId { get; private set; }
 
+    public static GameObject hitObject;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //interactionIcon.SetActive(false);
         interactionHint.gameObject.SetActive(false);
         interactionItem.gameObject.SetActive(false);
     }
@@ -28,7 +29,8 @@ public class InteractionDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        hitObject = collision.gameObject;
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {
             if (collision.CompareTag("flowers"))
             {
