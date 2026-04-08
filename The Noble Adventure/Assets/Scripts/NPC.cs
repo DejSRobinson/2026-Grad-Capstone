@@ -8,19 +8,12 @@ public class NPC : MonoBehaviour, IInteractable
 {
     //Varibles Used
     public bool IsShown { get; private set; }
-    public string NPCId { get; private set; }
 
     public Canvas indicator;
     public Canvas[] textBox;
     public TextMeshProUGUI[] npcDialog;
 
     public QuestObjects questObject;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        NPCId ??= GlobalHelper.GenerateUniqueID(gameObject);
-        textBox[0].gameObject.SetActive(false);
-    }
 
     void Update()
     {
@@ -47,7 +40,7 @@ public class NPC : MonoBehaviour, IInteractable
         }
         else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GameScene"))
         {
-            SceneManager.LoadScene("GameSceneQuest2");
+            //SceneManager.LoadScene("GameSceneQuest2");
         }
 
         index++;

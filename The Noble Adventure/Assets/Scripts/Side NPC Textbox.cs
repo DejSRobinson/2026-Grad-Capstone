@@ -8,7 +8,6 @@ public class NPCTemp : MonoBehaviour, IInteractable
 {
     //Varibles Used
     public bool IsShown { get; private set; }
-    public string NPCId { get; private set; }
 
     public Canvas indicator;
     public Canvas textBox;
@@ -16,7 +15,6 @@ public class NPCTemp : MonoBehaviour, IInteractable
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        NPCId ??= GlobalHelper.GenerateUniqueID(gameObject);
         textBox.gameObject.SetActive(false);
     }
 
@@ -27,6 +25,14 @@ public class NPCTemp : MonoBehaviour, IInteractable
             textBox.gameObject.SetActive(true);
             indicator.gameObject.SetActive(false);
         }
+        else
+        {
+            Invoke("close", 4.0f);
+        }
+    }
+    void close()
+    {
+        textBox.gameObject.SetActive(false);
     }
 
     public bool CanInteract()
