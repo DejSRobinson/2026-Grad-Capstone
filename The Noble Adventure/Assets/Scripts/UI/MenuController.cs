@@ -12,7 +12,7 @@ public class MenuController : MonoBehaviour
     void Start()
     {
         hint.gameObject.SetActive(true);
-        Invoke("close", 2.0f);
+        Invoke("close", 1.5f);
     }
 
     // Update is called once per frame
