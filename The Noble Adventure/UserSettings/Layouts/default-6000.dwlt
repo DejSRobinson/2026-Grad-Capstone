@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 950
     height: 676
-  m_MinSize: {x: 725, y: 400}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 725, y: 426}
+  m_MaxSize: {x: 4000, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -319,8 +319,8 @@ MonoBehaviour:
     y: 0
     width: 223
     height: 690
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -398,8 +398,8 @@ MonoBehaviour:
     y: 0
     width: 458
     height: 744
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -425,8 +425,8 @@ MonoBehaviour:
     y: 744
     width: 458
     height: 189
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 27}
   m_Panes:
   - {fileID: 27}
@@ -453,8 +453,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Build Profiles\u200B"
   m_Pos:
     serializedVersion: 2
-    x: -1061
-    y: 170
+    x: 0
+    y: 26
     width: 950
     height: 650
   m_SerializedDataModeController:
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -576,7 +576,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 0
+      displayed: 1
       id: Services/AI
       index: 5
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -590,7 +590,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 0
+      displayed: 1
       id: Services/Unity Version Control
       index: 6
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -733,12 +733,12 @@ MonoBehaviour:
       displayed: 1
       id: Play Mode Controls
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-992.0,"y":-36.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: -992, y: -36}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -772,8 +772,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1462
-    y: 79
+    x: 1
+    y: 24
     width: 457
     height: 718
   m_SerializedDataModeController:
@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 222
     height: 664
   m_SerializedDataModeController:
@@ -955,8 +955,8 @@ MonoBehaviour:
       - m_Data: 368878
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CyanNPC
-        m_OriginalName: CyanNPC
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -964,10 +964,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 234550
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 13}
@@ -1000,8 +1000,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 223
-    y: 79
+    x: 224
+    y: 24
     width: 1237
     height: 664
   m_SerializedDataModeController:
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.4217434, y: 4.0105443, z: -0.070002116}
+    m_Target: {x: 1091.8367, y: 506.17087, z: -1.3868674}
     speed: 2
     m_Value: {x: 5.4217434, y: 4.0105443, z: -0.070002116}
   m_RenderMode: 0
@@ -1738,7 +1738,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.785152
+    m_Target: 301.4748
     speed: 2
     m_Value: 10.785152
   m_Ortho:
@@ -1901,7 +1901,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 769
+    y: 714
     width: 1461
     height: 217
   m_SerializedDataModeController:
@@ -1953,33 +1953,7 @@ MonoBehaviour:
       m_Data: 51358
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49806
-    - m_Data: 49808
-    - m_Data: 49810
-    - m_Data: 49812
-    - m_Data: 49814
-    - m_Data: 49816
-    - m_Data: 49818
-    - m_Data: 49820
-    - m_Data: 49822
-    - m_Data: 49824
-    - m_Data: 49826
-    - m_Data: 49828
-    - m_Data: 49830
-    - m_Data: 49832
-    - m_Data: 49834
-    - m_Data: 49836
-    - m_Data: 49838
-    - m_Data: 49840
-    - m_Data: 49842
-    - m_Data: 49844
-    - m_Data: 49846
-    - m_Data: 49848
-    - m_Data: 49850
-    - m_Data: 49852
-    - m_Data: 49854
-    - m_Data: 49856
-    - m_Data: 1000000000
+    - m_Data: 50440
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2012,32 +1986,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49806
-    - m_Data: 49808
-    - m_Data: 49810
-    - m_Data: 49812
-    - m_Data: 49814
-    - m_Data: 49816
-    - m_Data: 49818
-    - m_Data: 49820
-    - m_Data: 49822
-    - m_Data: 49824
-    - m_Data: 49826
-    - m_Data: 49828
-    - m_Data: 49830
-    - m_Data: 49832
-    - m_Data: 49834
-    - m_Data: 49836
-    - m_Data: 49838
-    - m_Data: 49840
-    - m_Data: 49842
-    - m_Data: 49844
-    - m_Data: 49846
-    - m_Data: 49848
-    - m_Data: 49850
-    - m_Data: 49852
-    - m_Data: 49854
-    - m_Data: 49856
+    - m_Data: 50440
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2253,8 +2202,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Animation\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1462
-    y: 823
+    x: 1
+    y: 768
     width: 457
     height: 163
   m_SerializedDataModeController:

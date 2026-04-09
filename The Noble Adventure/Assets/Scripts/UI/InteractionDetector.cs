@@ -39,8 +39,17 @@ public class InteractionDetector : MonoBehaviour
         hitObject = collision.gameObject;
         if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {
-            interactableInRage = interactable;
-            interactionHint.gameObject.SetActive(true);
+            if (collision.name.StartsWith("NPC"))
+            {
+                interactableInRage = interactable;
+                interactionHint.gameObject.SetActive(true);
+            }
+            else
+            {
+                interactableInRage = interactable;
+                interactionHint.gameObject.SetActive(false);
+                interactionItem.gameObject.SetActive(true);
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -49,8 +58,10 @@ public class InteractionDetector : MonoBehaviour
 
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRage)
         {
+
             interactableInRage = null;
             interactionHint.gameObject.SetActive(false);
+            interactionItem.gameObject.SetActive(false);
         }
     }
 }

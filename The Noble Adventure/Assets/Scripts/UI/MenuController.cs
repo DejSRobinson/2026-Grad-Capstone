@@ -1,14 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MenuController : MonoBehaviour
 {
     // Variables Used
     public GameObject pauseMenu;
+    public GameObject hint;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        hint.gameObject.SetActive(true);
+        Invoke("close", 2.0f);
     }
 
     // Update is called once per frame
@@ -18,6 +22,11 @@ public class MenuController : MonoBehaviour
         {
             pauseMenu.SetActive(!pauseMenu.activeSelf);
         }
+    }
+
+    void close()
+    {
+        hint.gameObject.SetActive(false);
     }
 
     public void ResumeGame()

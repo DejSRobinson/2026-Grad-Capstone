@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 72537864}
   - component: {fileID: 72537865}
   m_Layer: 21
-  m_Name: YellowNPC
+  m_Name: NPCYellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13676,7 +13676,7 @@ PrefabInstance:
     - target: {fileID: 2055102311959635375, guid: 5c635e5bc09c93043a53ee0e17e89d0f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.595
+      value: 7.933
       objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 5c635e5bc09c93043a53ee0e17e89d0f,
         type: 3}
@@ -17875,7 +17875,7 @@ PrefabInstance:
     - target: {fileID: 8228059593326255414, guid: 84d669757910f1f488023c92e71fcad5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.58
+      value: 7.918
       objectReference: {fileID: 0}
     - target: {fileID: 8228059593326255414, guid: 84d669757910f1f488023c92e71fcad5,
         type: 3}
@@ -32146,7 +32146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press R
+  m_text: 'Press C
 
 '
   m_isRightToLeft: 0
@@ -36169,7 +36169,7 @@ GameObject:
   - component: {fileID: 1697942802}
   - component: {fileID: 1697942801}
   m_Layer: 20
-  m_Name: Cyan NPC
+  m_Name: NPCCyan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41339,7 +41339,7 @@ GameObject:
   - component: {fileID: 2093242421}
   - component: {fileID: 2093242422}
   m_Layer: 20
-  m_Name: PinkNPC
+  m_Name: NPCPink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
