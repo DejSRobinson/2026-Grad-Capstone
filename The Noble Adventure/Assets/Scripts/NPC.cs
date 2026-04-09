@@ -13,7 +13,7 @@ public class NPC : MonoBehaviour, IInteractable
     public Canvas[] textBox;
     public TextMeshProUGUI[] npcDialog;
 
-    public QuestObjects questObject;
+    public QuestObjects[] questObject;
 
     void Update()
     {
@@ -22,11 +22,39 @@ public class NPC : MonoBehaviour, IInteractable
             textBox[0].gameObject.SetActive(true);
             indicator.gameObject.SetActive(false);
         }
-        
-        if (Input.GetKey(KeyCode.E) && questObject.questComplete == true)
+
+        if (questObject.Length == 1)
         {
-            textBox[0].gameObject.SetActive(false);
-            textBox[1].gameObject.SetActive(true);
+            if (Input.GetKey(KeyCode.E) && questObject[0].questComplete == true)
+            {
+                textBox[0].gameObject.SetActive(false);
+                textBox[1].gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            if (questObject.Length > 1)
+            {
+                for (int i = 0; i < questObject.Length; i++)
+                {
+                    if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
+                    {
+                        textBox[0].gameObject.SetActive(false);
+                        textBox[1].gameObject.SetActive(true);
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < questObject.Length; i++)
+                    {
+                        if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
+                        {
+                            textBox[0].gameObject.SetActive(false);
+                            textBox[1].gameObject.SetActive(true);
+                        }
+                    }
+            }
         }
     }
 
@@ -38,9 +66,9 @@ public class NPC : MonoBehaviour, IInteractable
             npcDialog[index].gameObject.SetActive(false);
             npcDialog[index + 1].gameObject.SetActive(true);
         }
-        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GameScene"))
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestOneScene"))
         {
-            //SceneManager.LoadScene("GameSceneQuest2");
+            SceneManager.LoadScene("QuestTwoScene");
         }
 
         index++;
