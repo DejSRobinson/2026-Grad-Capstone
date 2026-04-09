@@ -70,6 +70,10 @@ public class NPC : MonoBehaviour, IInteractable
         {
             SceneManager.LoadScene("QuestTwoScene");
         }
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
+        {
+            SceneManager.LoadScene("CreditScene");
+        }
 
         index++;
     }

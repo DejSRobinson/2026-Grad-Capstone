@@ -9,10 +9,6 @@ public class MenuController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if(pauseMenu != null)
-        {
-            pauseMenu.SetActive(false);
-        }
     }
 
     // Update is called once per frame
@@ -31,7 +27,7 @@ public class MenuController : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("QuestOneScene");
     }
 
     public void ReturnToMainMenu()
