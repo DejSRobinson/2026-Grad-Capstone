@@ -576,7 +576,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 1
+      displayed: 0
       id: Services/AI
       index: 5
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -590,7 +590,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 1
+      displayed: 0
       id: Services/Unity Version Control
       index: 6
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -733,12 +733,12 @@ MonoBehaviour:
       displayed: 1
       id: Play Mode Controls
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-992.0,"y":-36.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -992, y: -36}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -1686,9 +1686,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1091.8367, y: 506.17087, z: -1.3868674}
+    m_Target: {x: 5.4217434, y: 4.0105443, z: -0.070002116}
     speed: 2
-    m_Value: {x: 5.4217434, y: 4.0105443, z: -0.070002116}
+    m_Value: {x: 1091.8367, y: 506.17087, z: -1.3868674}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1738,9 +1738,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 301.4748
+    m_Target: 10.785152
     speed: 2
-    m_Value: 10.785152
+    m_Value: 301.4748
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1953,7 +1953,32 @@ MonoBehaviour:
       m_Data: 51358
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50440
+    - m_Data: 53434
+    - m_Data: 53436
+    - m_Data: 53438
+    - m_Data: 53440
+    - m_Data: 53442
+    - m_Data: 53444
+    - m_Data: 53446
+    - m_Data: 53448
+    - m_Data: 53450
+    - m_Data: 53452
+    - m_Data: 53454
+    - m_Data: 53456
+    - m_Data: 53458
+    - m_Data: 53460
+    - m_Data: 53462
+    - m_Data: 53464
+    - m_Data: 53466
+    - m_Data: 53468
+    - m_Data: 53470
+    - m_Data: 53472
+    - m_Data: 53474
+    - m_Data: 53476
+    - m_Data: 53478
+    - m_Data: 53480
+    - m_Data: 53482
+    - m_Data: 53484
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1986,7 +2011,32 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50440
+    - m_Data: 53434
+    - m_Data: 53436
+    - m_Data: 53438
+    - m_Data: 53440
+    - m_Data: 53442
+    - m_Data: 53444
+    - m_Data: 53446
+    - m_Data: 53448
+    - m_Data: 53450
+    - m_Data: 53452
+    - m_Data: 53454
+    - m_Data: 53456
+    - m_Data: 53458
+    - m_Data: 53460
+    - m_Data: 53462
+    - m_Data: 53464
+    - m_Data: 53466
+    - m_Data: 53468
+    - m_Data: 53470
+    - m_Data: 53472
+    - m_Data: 53474
+    - m_Data: 53476
+    - m_Data: 53478
+    - m_Data: 53480
+    - m_Data: 53482
+    - m_Data: 53484
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

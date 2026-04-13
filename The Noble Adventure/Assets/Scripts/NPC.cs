@@ -47,18 +47,23 @@ public class NPC : MonoBehaviour, IInteractable
             else
             {
                 for (int i = 0; i < questObject.Length; i++)
+                {
+                    if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
                     {
-                        if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
-                        {
-                            textBox[0].gameObject.SetActive(false);
-                            textBox[1].gameObject.SetActive(true);
-                        }
+                        textBox[0].gameObject.SetActive(false);
+                        textBox[1].gameObject.SetActive(true);
                     }
+                }
             }
         }
     }
 
     int index = 0;
+    public void StartMiniGame()
+    {
+        textBox[1].gameObject.SetActive(false);
+    }
+
     public void OnButtonClick()
     {
         if (index != (npcDialog.Length - 1))
