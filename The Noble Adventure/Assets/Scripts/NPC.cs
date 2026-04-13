@@ -20,8 +20,16 @@ public class NPC : MonoBehaviour, IInteractable
     {
         if (Input.GetKey(KeyCode.E))
         {
-            textBox[0].gameObject.SetActive(true);
-            indicator.gameObject.SetActive(false);
+            if (textBox[0] == null)
+            {
+                textBox[1].gameObject.SetActive(true);
+                indicator.gameObject.SetActive(false);
+            }
+            else
+            {
+                textBox[0].gameObject.SetActive(true);
+                indicator.gameObject.SetActive(false);
+            }
         }
 
         if (questObject.Length == 1)
@@ -36,7 +44,7 @@ public class NPC : MonoBehaviour, IInteractable
         {
             if (questObject.Length > 1)
             {
-                for (int i = 0; i < questObject.Length; i++)
+                for (int i = 1; i < questObject.Length; i++)
                 {
                     if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
                     {
@@ -47,7 +55,7 @@ public class NPC : MonoBehaviour, IInteractable
             }
             else
             {
-                for (int i = 0; i < questObject.Length; i++)
+                for (int i = 1; i < questObject.Length; i++)
                 {
                     if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
                     {
