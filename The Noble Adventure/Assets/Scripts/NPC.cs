@@ -1,3 +1,4 @@
+using EasyTextEffects.Editor.MyBoxCopy.Extensions;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -27,8 +28,8 @@ public class NPC : MonoBehaviour, IInteractable
         {
             if (Input.GetKey(KeyCode.E) && questObject[0].questComplete == true)
             {
-                textBox[0].gameObject.SetActive(false);
-                textBox[1].gameObject.SetActive(true);
+                textBox[1].gameObject.SetActive(false);
+                textBox[2].gameObject.SetActive(true);
             }
         }
         else
@@ -39,8 +40,8 @@ public class NPC : MonoBehaviour, IInteractable
                 {
                     if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
                     {
-                        textBox[0].gameObject.SetActive(false);
-                        textBox[1].gameObject.SetActive(true);
+                        textBox[1].gameObject.SetActive(false);
+                        textBox[2].gameObject.SetActive(true);
                     }
                 }
             }
@@ -50,8 +51,8 @@ public class NPC : MonoBehaviour, IInteractable
                 {
                     if (Input.GetKey(KeyCode.E) && questObject[i].questComplete == true)
                     {
-                        textBox[0].gameObject.SetActive(false);
-                        textBox[1].gameObject.SetActive(true);
+                        textBox[1].gameObject.SetActive(false);
+                        textBox[2].gameObject.SetActive(true);
                     }
                 }
             }
@@ -61,7 +62,10 @@ public class NPC : MonoBehaviour, IInteractable
     int index = 0;
     public void StartMiniGame()
     {
-        textBox[1].gameObject.SetActive(false);
+        textBox[0].gameObject.SetActive(false);
+        textBox[1].gameObject.SetActive(true);
+        textBox.RemoveAt(0);
+        Destroy(textBox[0].gameObject);
     }
 
     public void OnButtonClick()

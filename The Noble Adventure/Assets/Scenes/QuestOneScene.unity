@@ -50029,6 +50029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   indicator: {fileID: 675507215}
   textBox:
+  - {fileID: 1732922037}
   - {fileID: 470650662}
   - {fileID: 2108802054}
   npcDialog:
