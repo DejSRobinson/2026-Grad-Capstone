@@ -16,6 +16,10 @@ public class NPC : MonoBehaviour, IInteractable
 
     public QuestObjects[] questObject;
 
+    void Start()
+    {
+        textBox[0].gameObject.SetActive(false);
+    }
     void Update()
     {
         if (Input.GetKey(KeyCode.E))

@@ -342,7 +342,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1697942801}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
         m_MethodName: StartMiniGame
         m_Mode: 1
@@ -6878,7 +6878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &307086826
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17947,6 +17947,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336126249}
     m_Modifications:
+    - target: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+        type: 3}
+      propertyPath: m_Name
+      value: Glow3
+      objectReference: {fileID: 0}
     - target: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
         type: 3}
       propertyPath: m_IsActive
@@ -37221,6 +37226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   indicator: {fileID: 675507215}
   textBox:
+  - {fileID: 307086829}
   - {fileID: 752766376}
   - {fileID: 296323181}
   npcDialog:
@@ -38359,8 +38365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c12c57349491e9418b8662d050477e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuController
-  pauseMenu: {fileID: 0}
-  hint: {fileID: 0}
+  pauseMenu: {fileID: 722200866}
+  hint: {fileID: 722200866}
 --- !u!4 &1756899662
 Transform:
   m_ObjectHideFlags: 0
@@ -38387,6 +38393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758948941}
   - component: {fileID: 1758948942}
+  - component: {fileID: 1758948943}
   m_Layer: 0
   m_Name: Pillar 1
   m_TagString: Untagged
@@ -38446,7 +38453,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.0193429, y: 0.6975605}
+  m_Offset: {x: 0.99716425, y: 0.7363731}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -38456,8 +38463,27 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9615345, y: 1.7974273}
+  m_Size: {x: 1.0502491, y: 1.8750526}
   m_EdgeRadius: 0
+--- !u!114 &1758948943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758948939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c99a301c636204a8f9e0c9a31f231a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestObjects
+  indicator: {fileID: 1857980412}
+  questTask: {fileID: 1834454587}
+  complete: {fileID: 505241312}
+  questObjects:
+  - {fileID: 1758948943}
+  - {fileID: 1795763779}
+  questComplete: 0
 --- !u!1001 &1770859209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39448,9 +39474,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestObjects
   indicator: {fileID: 1857980412}
-  questTask:
-  - {fileID: 5055698509990871161}
+  questTask: {fileID: 5055698509990871161}
   complete: {fileID: 505241312}
+  questObjects:
+  - {fileID: 1758948943}
+  - {fileID: 1795763779}
   questComplete: 0
 --- !u!61 &1795763780
 BoxCollider2D:
@@ -39727,6 +39755,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819601110}
   m_CullTransparentMesh: 1
+--- !u!1 &1834454587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+    type: 3}
+  m_PrefabInstance: {fileID: 2010802831}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1840828624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41691,6 +41725,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1758948941}
     m_Modifications:
+    - target: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+        type: 3}
+      propertyPath: m_Name
+      value: Glow1
+      objectReference: {fileID: 0}
     - target: {fileID: 5055698509961064898, guid: 6d6991dbbdeecb1488bbf78c063d1235,
         type: 3}
       propertyPath: m_RootOrder
@@ -44990,6 +45029,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1795763778}
     m_Modifications:
+    - target: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+        type: 3}
+      propertyPath: m_Name
+      value: Glow2
+      objectReference: {fileID: 0}
     - target: {fileID: 5055698509786747554, guid: 6d6991dbbdeecb1488bbf78c063d1235,
         type: 3}
       propertyPath: m_SortingLayer
