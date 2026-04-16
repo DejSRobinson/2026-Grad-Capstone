@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press E
+  m_text: Press E (C)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3ad954f5e166e5d4cb3f066a31072d6e, type: 2}
   m_sharedMaterial: {fileID: 4113299259716348460, guid: 3ad954f5e166e5d4cb3f066a31072d6e,
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -4304,7 +4304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 450, y: 288}
+  m_AnchoredPosition: {x: 450, y: 284}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830011959
@@ -4327,7 +4327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press E
+  m_text: Press E (C)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3ad954f5e166e5d4cb3f066a31072d6e, type: 2}
   m_sharedMaterial: {fileID: 4113299259716348460, guid: 3ad954f5e166e5d4cb3f066a31072d6e,
@@ -4372,7 +4372,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -4438,6 +4438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuController
   pauseMenu: {fileID: 0}
+  hint: {fileID: 0}
 --- !u!4 &1842339860
 Transform:
   m_ObjectHideFlags: 0
