@@ -11,8 +11,11 @@ public class MenuController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        hint.gameObject.SetActive(true);
-        Invoke("close", 1.5f);
+        if (hint != null && pauseMenu != null)
+        {
+            hint.gameObject.SetActive(true);
+            Invoke("close", 1.5f);
+        }
     }
 
     // Update is called once per frame
