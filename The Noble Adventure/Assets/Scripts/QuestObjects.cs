@@ -36,16 +36,20 @@ public class QuestObjects : MonoBehaviour, IInteractable
         }
 
         //How do I check to see if the "Glow" is active or not
-        /*if (questObjects != null)
+        if (questObjects != null && questObjects.Length > 1)
         {
-            if (questObjects[0].questTask && questObjects[1].questTask)
+            if (!questObjects[0].questTask.activeInHierarchy && !questObjects[1].questTask.activeInHierarchy && !questObjects[2].questTask.activeInHierarchy)
             {
                 foreach(QuestObjects item in questObjects)
                 {
                     item.questComplete = true;
                 }
             }
-        }*/
+        }
+        else
+        {
+            questComplete = true;
+        }
     }
 
     void close()

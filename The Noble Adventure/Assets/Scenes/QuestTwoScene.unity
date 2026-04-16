@@ -6704,7 +6704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.105, y: -0.053}
+  m_AnchoredPosition: {x: 0.526, y: -0.37200007}
   m_SizeDelta: {x: 1980, y: 1096.2146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296323179
@@ -6902,7 +6902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.105, y: -0.053}
+  m_AnchoredPosition: {x: 0.526, y: -0.372}
   m_SizeDelta: {x: 1980, y: 1096.2146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307086827
@@ -17724,7 +17724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.105, y: -0.053}
+  m_AnchoredPosition: {x: 0.526, y: -0.37200007}
   m_SizeDelta: {x: 1980, y: 1096.2146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &765345141
@@ -31613,6 +31613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1336126249}
   - component: {fileID: 1336126251}
+  - component: {fileID: 1336126252}
   m_Layer: 0
   m_Name: Pillar 3
   m_TagString: Untagged
@@ -31684,6 +31685,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.93183136, y: 1.7725964}
   m_EdgeRadius: 0
+--- !u!114 &1336126252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336126248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c99a301c636204a8f9e0c9a31f231a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestObjects
+  indicator: {fileID: 1857980412}
+  questTask: {fileID: 1697939134}
+  complete: {fileID: 505241312}
+  questObjects:
+  - {fileID: 1758948943}
+  - {fileID: 1795763779}
+  - {fileID: 1336126252}
+  questComplete: 0
 --- !u!1001 &1369492698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37193,6 +37214,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1190283996}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1697939134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+    type: 3}
+  m_PrefabInstance: {fileID: 771057393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1697942800
 GameObject:
   m_ObjectHideFlags: 0
@@ -38483,6 +38510,7 @@ MonoBehaviour:
   questObjects:
   - {fileID: 1758948943}
   - {fileID: 1795763779}
+  - {fileID: 1336126252}
   questComplete: 0
 --- !u!1001 &1770859209
 PrefabInstance:
@@ -39479,6 +39507,7 @@ MonoBehaviour:
   questObjects:
   - {fileID: 1758948943}
   - {fileID: 1795763779}
+  - {fileID: 1336126252}
   questComplete: 0
 --- !u!61 &1795763780
 BoxCollider2D:

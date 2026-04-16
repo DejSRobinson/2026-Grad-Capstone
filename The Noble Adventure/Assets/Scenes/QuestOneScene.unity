@@ -43456,9 +43456,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestObjects
   indicator: {fileID: 1857980412}
-  questTask:
-  - {fileID: 1667645347}
+  questTask: {fileID: 1667645347}
   complete: {fileID: 505241312}
+  questObjects: []
   questComplete: 0
 --- !u!61 &1667645351
 BoxCollider2D:
