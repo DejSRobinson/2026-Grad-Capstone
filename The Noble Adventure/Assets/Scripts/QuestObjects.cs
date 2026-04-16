@@ -46,7 +46,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
                 }
             }
         }
-        else
+        else if (!questTask.activeInHierarchy)
         {
             questComplete = true;
         }
