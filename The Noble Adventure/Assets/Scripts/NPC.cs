@@ -87,6 +87,10 @@ public class NPC : MonoBehaviour, IInteractable
             npcDialog[index].gameObject.SetActive(false);
             npcDialog[index + 1].gameObject.SetActive(true);
         }
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
+        {
+            SceneManager.LoadScene("QuestThreeScene");
+        }
         else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestOneScene"))
         {
             SceneManager.LoadScene("QuestTwoScene");
