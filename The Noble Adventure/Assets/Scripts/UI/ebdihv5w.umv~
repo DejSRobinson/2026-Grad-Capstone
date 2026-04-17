@@ -1,0 +1,74 @@
+using System;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class InteractionDetector : MonoBehaviour
+{
+    private IInteractable interactableInRage = null;
+    public Canvas interactionHint;
+    public Canvas interactionItem;
+
+    public static GameObject hitObject;
+
+    [SerializeField] private int myTextboxIndex = 0; // Set this in Inspector (0, 1, 2, etc.)
+
+    public void ShowTextbox()
+    {
+        TextboxUIManager.Instance.ShowTextbox(gameObject, myTextboxIndex);
+    }
+
+    void Start()
+    {
+        interactionHint.gameObject.SetActive(false);
+        interactionItem.gameObject.SetActive(false);
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            interactableInRage?.Interact();
+        }
+    }
+
+    // Call this from your Interact() method
+    public void ShowTextbox()
+    {
+        TextboxUIManager.Instance.ShowTextbox(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        hitObject = collision.gameObject;
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        {
+            interactableInRage = interactable;
+            interactionHint.gameObject.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRage)
+        {
+            interactableInRage = null;
+            interactionHint.gameObject.SetActive(false);
+            TextboxUIManager.Instance.HideTextbox(gameObject); // Hide when walking away
+        }
+    }
+
+    private IInteractable interactableInRage = null;
+    public Canvas interactionHint;
+    public Canvas interactionItem;
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRage)
+        {
+            interactableInRage = null;
+            interactionHint.gameObject.SetActive(false);
+            TextboxUIManager.Instance.HideTextbox(gameObject);
+        }
+    }
+}

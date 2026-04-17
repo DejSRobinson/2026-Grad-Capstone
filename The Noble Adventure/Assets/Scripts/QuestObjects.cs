@@ -8,40 +8,47 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public bool IsShown { get; private set; }
 
     public Canvas indicator;
-    public GameObject questTask1;
-    public GameObject questTask2;
+    public GameObject questTask;
     public Canvas complete;
 
-    public bool questComplete1;
-    public bool questComplete2;
-
+    public QuestObjects[] questObjects;
+    public bool questComplete;
+    GameObject collision;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        questComplete1 = false;
-        questComplete2 = false;
+        questComplete = false;
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.R))
-        {
-            questTask1.SetActive(false);
-            indicator.gameObject.SetActive(false);
-            questComplete1 = true;
-
-            complete.gameObject.SetActive(true);
-            Invoke("close", 1.0f);
-        }
+        collision = InteractionDetector.hitObject;
 
         if (Input.GetKey(KeyCode.C))
         {
-            questTask2.SetActive(false);
-            indicator.gameObject.SetActive(false);
-            questComplete2 = true;
+            if (collision != null && collision == gameObject)
+            {
+                questTask.gameObject.SetActive(false);
+                indicator.gameObject.SetActive(false);
+                complete.gameObject.SetActive(true);
+                Invoke("close", 1.0f);
+            }
+        }
 
-            complete.gameObject.SetActive(true);
-            Invoke("close", 1.0f);
+        //How do I check to see if the "Glow" is active or not
+        if (questObjects != null && questObjects.Length > 1)
+        {
+            if (!questObjects[0].questTask.activeInHierarchy && !questObjects[1].questTask.activeInHierarchy && !questObjects[2].questTask.activeInHierarchy)
+            {
+                foreach(QuestObjects item in questObjects)
+                {
+                    item.questComplete = true;
+                }
+            }
+        }
+        else if (!questTask.activeInHierarchy)
+        {
+            questComplete = true;
         }
     }
 

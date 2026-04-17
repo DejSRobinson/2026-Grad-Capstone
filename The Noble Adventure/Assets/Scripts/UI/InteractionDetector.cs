@@ -7,16 +7,23 @@ public class InteractionDetector : MonoBehaviour
     private IInteractable interactableInRage = null;
     public Canvas interactionHint;
     public Canvas interactionItem;
-    public Canvas interactionItem2;
-    public Canvas[] textbox;
+    public Canvas textbox;
+
+    public static GameObject hitObject;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //interactionIcon.SetActive(false);
         interactionHint.gameObject.SetActive(false);
         interactionItem.gameObject.SetActive(false);
-        interactionItem2.gameObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (textbox.gameObject.activeSelf && interactableInRage == null)
+        {
+            textbox.gameObject.SetActive(false);
+        }
     }
 
     public void OnInteract(InputAction.CallbackContext context)
@@ -29,48 +36,32 @@ public class InteractionDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        hitObject = collision.gameObject;
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {
-            if (collision.CompareTag("flowers"))
+            if (collision.name.StartsWith("NPC"))
             {
                 interactableInRage = interactable;
-                interactionItem.gameObject.SetActive(true);
-            }
-            else if (collision.CompareTag("pillar"))
-            {
-                interactableInRage = interactable;
-                interactionItem2.gameObject.SetActive(true);
+                interactionHint.gameObject.SetActive(true);
             }
             else
             {
                 interactableInRage = interactable;
-                interactionHint.gameObject.SetActive(true);
+                interactionHint.gameObject.SetActive(false);
+                interactionItem.gameObject.SetActive(true);
             }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        textbox.gameObject.SetActive(false);
+
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRage)
         {
-            if (collision.CompareTag("flowers"))
-            {
-                interactableInRage = null;
-                interactionItem.gameObject.SetActive(false);
-            }
-            else if (collision.CompareTag("pillar"))
-            {
-                interactableInRage = null;
-                interactionItem.gameObject.SetActive(false);
-            }
-            else
-            {
-                interactableInRage = null;
-                interactionHint.gameObject.SetActive(false);
-                for (int i = 0; i < textbox.Length; i++)
-                {
-                    textbox[i].gameObject.SetActive(false);
-                }
-            }
+
+            interactableInRage = null;
+            interactionHint.gameObject.SetActive(false);
+            interactionItem.gameObject.SetActive(false);
         }
     }
 }

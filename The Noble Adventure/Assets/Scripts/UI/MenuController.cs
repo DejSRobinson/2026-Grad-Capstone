@@ -1,17 +1,20 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MenuController : MonoBehaviour
 {
     // Variables Used
     public GameObject pauseMenu;
+    public GameObject hint;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if(pauseMenu != null)
+        if (hint != null && pauseMenu != null)
         {
-            pauseMenu.SetActive(false);
+            hint.gameObject.SetActive(true);
+            Invoke("close", 1.5f);
         }
     }
 
@@ -24,6 +27,11 @@ public class MenuController : MonoBehaviour
         }
     }
 
+    void close()
+    {
+        hint.gameObject.SetActive(false);
+    }
+
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
@@ -31,7 +39,7 @@ public class MenuController : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("QuestOneScene");
     }
 
     public void ReturnToMainMenu()
