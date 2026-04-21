@@ -11,8 +11,12 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public GameObject questTask;
     public Canvas complete;
 
+    public GameObject[] nextQuest;
+
     public QuestObjects[] questObjects;
+    int index = 1;
     public bool questComplete;
+
     GameObject collision;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,7 +27,6 @@ public class QuestObjects : MonoBehaviour, IInteractable
     void Update()
     {
         collision = InteractionDetector.hitObject;
-
         if (Input.GetKey(KeyCode.C))
         {
             if (collision != null && collision == gameObject)
@@ -32,6 +35,9 @@ public class QuestObjects : MonoBehaviour, IInteractable
                 indicator.gameObject.SetActive(false);
                 complete.gameObject.SetActive(true);
                 Invoke("close", 1.0f);
+
+                //Where else could I call this? This throws and error
+                //NextQuest();
             }
         }
 
@@ -65,5 +71,14 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public void Interact()
     {
         if (!CanInteract()) return;
+    }
+
+    void NextQuest()
+    {
+        //Why are you always an error?
+        /*
+        nextQuest[index].gameObject.SetActive(false);
+        index += 1;
+        nextQuest[index].gameObject.SetActive(true);*/
     }
 }

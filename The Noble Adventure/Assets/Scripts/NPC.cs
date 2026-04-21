@@ -79,7 +79,6 @@ public class NPC : MonoBehaviour, IInteractable
         textBox.RemoveAt(0);
         Destroy(textBox[0].gameObject);
     }
-
     public void OnButtonClick()
     {
         if (index != (npcDialog.Length - 1))
