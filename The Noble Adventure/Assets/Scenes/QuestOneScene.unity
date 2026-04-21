@@ -45642,6 +45642,7 @@ MonoBehaviour:
   indicator: {fileID: 1857980412}
   questTask: {fileID: 1667645347}
   complete: {fileID: 505241312}
+  nextQuest: []
   questObjects: []
   questComplete: 0
 --- !u!61 &1667645351

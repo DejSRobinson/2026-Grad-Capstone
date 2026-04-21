@@ -12,9 +12,8 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public Canvas complete;
 
     public GameObject[] nextQuest;
-
+    int i;
     public QuestObjects[] questObjects;
-    int index = 1;
     public bool questComplete;
 
     GameObject collision;
@@ -22,6 +21,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
     void Start()
     {
         questComplete = false;
+        i = 0;
     }
 
     void Update()
@@ -36,17 +36,16 @@ public class QuestObjects : MonoBehaviour, IInteractable
                 complete.gameObject.SetActive(true);
                 Invoke("close", 1.0f);
 
-                //Where else could I call this? This throws and error
-                //NextQuest();
+                //nextQuest[0].gameObject.SetActive(false);
+                //nextQuest[1].gameObject.SetActive(true);
             }
         }
 
-        //How do I check to see if the "Glow" is active or not
         if (questObjects != null && questObjects.Length > 1)
         {
             if (!questObjects[0].questTask.activeInHierarchy && !questObjects[1].questTask.activeInHierarchy && !questObjects[2].questTask.activeInHierarchy)
             {
-                foreach(QuestObjects item in questObjects)
+                foreach (QuestObjects item in questObjects)
                 {
                     item.questComplete = true;
                 }
@@ -73,12 +72,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
         if (!CanInteract()) return;
     }
 
-    void NextQuest()
+    /*void NextQuest(int i)
     {
-        //Why are you always an error?
-        /*
-        nextQuest[index].gameObject.SetActive(false);
-        index += 1;
-        nextQuest[index].gameObject.SetActive(true);*/
-    }
+    }*/
 }
