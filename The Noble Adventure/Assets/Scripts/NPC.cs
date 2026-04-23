@@ -13,6 +13,7 @@ public class NPC : MonoBehaviour, IInteractable
     public Canvas indicator;
     public Canvas[] textBox;
     public TextMeshProUGUI[] npcDialog;
+    public TextMeshProUGUI[] npcDialog2;
 
     public QuestObjects[] questObject;
     GameObject collision;
@@ -81,12 +82,35 @@ public class NPC : MonoBehaviour, IInteractable
         textBox.RemoveAt(0);
         Destroy(textBox[0].gameObject);
     }
-    public void OnButtonClick()
+    public void OnButtonClickFirst()
     {
         if (index != (npcDialog.Length - 1))
         {
             npcDialog[index].gameObject.SetActive(false);
             npcDialog[index + 1].gameObject.SetActive(true);
+        }
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
+        {
+            SceneManager.LoadScene("QuestThreeScene");
+        }
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestOneScene"))
+        {
+            SceneManager.LoadScene("QuestTwoScene");
+        }
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestThreeScene"))
+        {
+            SceneManager.LoadScene("CreditScene");
+        }
+
+        index++;
+    }
+
+    public void OnButtonClickTwo()
+    {
+        if (index != (npcDialog2.Length - 1))
+        {
+            npcDialog2[index].gameObject.SetActive(false);
+            npcDialog2[index + 1].gameObject.SetActive(true);
         }
         else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
         {

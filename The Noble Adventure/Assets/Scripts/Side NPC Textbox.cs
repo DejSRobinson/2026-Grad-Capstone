@@ -28,7 +28,7 @@ public class NPCTemp : MonoBehaviour, IInteractable
             textBox.gameObject.SetActive(true);
             indicator.gameObject.SetActive(false);
         }
-        Invoke("close", 3.0f);
+        Invoke("close", 6.0f);
     }
     void close()
     {

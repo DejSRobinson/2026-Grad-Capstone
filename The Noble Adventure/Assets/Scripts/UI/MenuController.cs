@@ -14,7 +14,7 @@ public class MenuController : MonoBehaviour
         if (hint != null && pauseMenu != null)
         {
             hint.gameObject.SetActive(true);
-            Invoke("close", 1.5f);
+            Invoke("close", 4f);
         }
     }
 
