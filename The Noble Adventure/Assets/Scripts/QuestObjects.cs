@@ -12,16 +12,18 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public Canvas complete;
 
     public GameObject[] nextQuest;
-    int i;
+    public TextMeshProUGUI One;
+
     public QuestObjects[] questObjects;
+    int i = 0;
     public bool questComplete;
 
     GameObject collision;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         questComplete = false;
-        i = 0;
     }
 
     void Update()
@@ -35,9 +37,6 @@ public class QuestObjects : MonoBehaviour, IInteractable
                 indicator.gameObject.SetActive(false);
                 complete.gameObject.SetActive(true);
                 Invoke("close", 1.0f);
-
-                //nextQuest[0].gameObject.SetActive(false);
-                //nextQuest[1].gameObject.SetActive(true);
             }
         }
 
@@ -57,6 +56,11 @@ public class QuestObjects : MonoBehaviour, IInteractable
         }
     }
 
+    void LateUpdate()
+    {
+        NextQuest();
+    }
+
     void close()
     {
         complete.gameObject.SetActive(false);
@@ -72,7 +76,21 @@ public class QuestObjects : MonoBehaviour, IInteractable
         if (!CanInteract()) return;
     }
 
-    /*void NextQuest(int i)
+    void NextQuest()
     {
-    }*/
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (i == 1)  // Currently on first quest
+            {
+                nextQuest[0].gameObject.SetActive(false);
+                nextQuest[1].gameObject.SetActive(true);
+            }
+            else if (i == 0)  // Currently on second quest
+            {
+                One.gameObject.SetActive(false);
+                nextQuest[0].gameObject.SetActive(true);
+                i = 1;
+            }
+        }
+    }
 }

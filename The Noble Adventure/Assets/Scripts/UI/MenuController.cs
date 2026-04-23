@@ -21,9 +21,14 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.Escape))
         {
             pauseMenu.SetActive(!pauseMenu.activeSelf);
+        }
+
+        if (Input.GetKeyUp(KeyCode.Return) && SceneManager.GetActiveScene() == SceneManager.GetSceneByName("MainMenuScene"))
+        {
+            StartGame();
         }
     }
 

@@ -19,7 +19,7 @@ public class GameSloved : MonoBehaviour
     {
         if (lettersSolved.All(item => item.isLocked))
         {
-            message.gameObject .SetActive(true);
+            message.gameObject.SetActive(true);
         }
     }
 }

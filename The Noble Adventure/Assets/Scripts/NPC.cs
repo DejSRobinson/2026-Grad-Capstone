@@ -15,6 +15,7 @@ public class NPC : MonoBehaviour, IInteractable
     public TextMeshProUGUI[] npcDialog;
 
     public QuestObjects[] questObject;
+    GameObject collision;
 
     void Start()
     {
@@ -22,7 +23,8 @@ public class NPC : MonoBehaviour, IInteractable
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.E))
+        collision = InteractionDetector.hitObject;
+        if (Input.GetKey(KeyCode.E) && collision == gameObject)
         {
             if (textBox[0] == null)
             {
@@ -94,7 +96,7 @@ public class NPC : MonoBehaviour, IInteractable
         {
             SceneManager.LoadScene("QuestTwoScene");
         }
-        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestThreeScene"))
         {
             SceneManager.LoadScene("CreditScene");
         }

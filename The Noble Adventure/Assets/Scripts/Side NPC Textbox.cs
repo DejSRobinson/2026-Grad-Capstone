@@ -12,6 +12,8 @@ public class NPCTemp : MonoBehaviour, IInteractable
     public Canvas indicator;
     public Canvas textBox;
 
+    GameObject collision;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,15 +22,13 @@ public class NPCTemp : MonoBehaviour, IInteractable
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.E))
+        collision = InteractionDetector.hitObject;
+        if (Input.GetKey(KeyCode.E) && collision == gameObject)
         {
             textBox.gameObject.SetActive(true);
             indicator.gameObject.SetActive(false);
         }
-        else
-        {
-            Invoke("close", 4.0f);
-        }
+        Invoke("close", 3.0f);
     }
     void close()
     {
