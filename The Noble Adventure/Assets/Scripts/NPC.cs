@@ -74,6 +74,11 @@ public class NPC : MonoBehaviour, IInteractable
         }
     }
 
+    public void TextClose()
+    {
+        textBox[1].gameObject.SetActive(false);
+    }
+
     int index = 0;
     public void StartMiniGame()
     {

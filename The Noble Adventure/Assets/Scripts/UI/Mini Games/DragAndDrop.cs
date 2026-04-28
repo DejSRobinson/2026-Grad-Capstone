@@ -10,9 +10,6 @@ public class DragAndDrop : MonoBehaviour
 
     Vector2 objectInitialPos;
     private bool isDragging = false;
-    /*
-     * [HideInInspector]
-    public bool isDragging = false;*/
 
     void Start()
     {
