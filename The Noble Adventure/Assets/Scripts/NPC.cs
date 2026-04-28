@@ -18,13 +18,19 @@ public class NPC : MonoBehaviour, IInteractable
     public QuestObjects[] questObject;
     GameObject collision;
 
+    public GameObject[] nextGame;
+    public static int indexTextbox;
+
     void Start()
     {
         textBox[0].gameObject.SetActive(false);
     }
+
     void Update()
     {
         collision = InteractionDetector.hitObject;
+        indexTextbox = textBox.Length;
+
         if (Input.GetKey(KeyCode.E) && collision == gameObject)
         {
             if (textBox[0] == null)
@@ -79,7 +85,10 @@ public class NPC : MonoBehaviour, IInteractable
         textBox[1].gameObject.SetActive(false);
     }
 
-    int index = 0;
+    int indexOne = 0;
+    int indexTwo = 0;
+    int indexThree = 0;
+
     public void StartMiniGame()
     {
         textBox[0].gameObject.SetActive(false);
@@ -87,12 +96,12 @@ public class NPC : MonoBehaviour, IInteractable
         textBox.RemoveAt(0);
         Destroy(textBox[0].gameObject);
     }
-    public void OnButtonClickFirst()
+    public void OnButtonClick()
     {
-        if (index != (npcDialog.Length - 1))
+        if (indexOne != (npcDialog.Length - 1))
         {
-            npcDialog[index].gameObject.SetActive(false);
-            npcDialog[index + 1].gameObject.SetActive(true);
+            npcDialog[indexOne].gameObject.SetActive(false);
+            npcDialog[indexOne + 1].gameObject.SetActive(true);
         }
         else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
         {
@@ -107,15 +116,32 @@ public class NPC : MonoBehaviour, IInteractable
             SceneManager.LoadScene("CreditScene");
         }
 
-        index++;
+        indexOne++;
+    }
+
+    public void OnButtonClickFirst()
+    {
+        if (indexTwo != (npcDialog.Length - 1))
+        {
+            npcDialog[indexTwo].gameObject.SetActive(false);
+            npcDialog[indexTwo + 1].gameObject.SetActive(true);
+        }
+        else
+        {
+            textBox[1].gameObject.SetActive(false);
+            nextGame[0].gameObject.SetActive(false);
+            nextGame[1].gameObject.SetActive(true);
+        }
+
+        indexTwo++;
     }
 
     public void OnButtonClickTwo()
     {
-        if (index != (npcDialog2.Length - 1))
+        if (indexThree != (npcDialog.Length - 1))
         {
-            npcDialog2[index].gameObject.SetActive(false);
-            npcDialog2[index + 1].gameObject.SetActive(true);
+            npcDialog2[indexThree].gameObject.SetActive(false);
+            npcDialog2[indexThree + 1].gameObject.SetActive(true);
         }
         else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("QuestTwoScene"))
         {
@@ -130,7 +156,7 @@ public class NPC : MonoBehaviour, IInteractable
             SceneManager.LoadScene("CreditScene");
         }
 
-        index++;
+        indexThree++;
     }
 
     public bool CanInteract()

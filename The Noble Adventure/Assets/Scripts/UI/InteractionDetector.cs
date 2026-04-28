@@ -1,4 +1,6 @@
+using EasyTextEffects.Editor.MyBoxCopy.Extensions;
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,16 +12,32 @@ public class InteractionDetector : MonoBehaviour
     public Canvas textbox;
 
     public static GameObject hitObject;
-
+    //int newHint;
+    //Canvas current;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         interactionHint.gameObject.SetActive(false);
         interactionItem.gameObject.SetActive(false);
+
+        //current = textbox[newHint];
     }
 
     private void Update()
     {
+        /*newHint = NPC.indexTextbox;
+        /*
+        if (newHint == 1) 
+        {
+            //current = textbox[1]; 
+            textbox[0].gameObject.SetActive(false);
+            textbox.RemoveAt(0);
+            Destroy(textbox[0].gameObject);
+        }
+        else { current = textbox[0]; }*/
+
+        //Debug.Log(newHint);
+
         if (textbox.gameObject.activeSelf && interactableInRage == null)
         {
             textbox.gameObject.SetActive(false);
@@ -54,7 +72,7 @@ public class InteractionDetector : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        textbox.gameObject.SetActive(false);
+        textbox.gameObject.SetActive(false); 
 
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRage)
         {

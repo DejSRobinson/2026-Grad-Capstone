@@ -36110,7 +36110,7 @@ MonoBehaviour:
   nextQuest:
   - {fileID: 570479429}
   - {fileID: 1264648844}
-  One: {fileID: 50662575}
+  nextHint: {fileID: 1264648846}
   questObjects:
   - {fileID: 1758948943}
   - {fileID: 1795763779}
@@ -44104,7 +44104,7 @@ MonoBehaviour:
   nextQuest:
   - {fileID: 570479429}
   - {fileID: 1264648844}
-  One: {fileID: 50662575}
+  nextHint: {fileID: 50662575}
   questObjects:
   - {fileID: 1758948943}
   - {fileID: 1795763779}
@@ -45095,7 +45095,7 @@ MonoBehaviour:
   nextQuest:
   - {fileID: 570479429}
   - {fileID: 1264648844}
-  One: {fileID: 50662575}
+  nextHint: {fileID: 570479431}
   questObjects:
   - {fileID: 1758948943}
   - {fileID: 1795763779}

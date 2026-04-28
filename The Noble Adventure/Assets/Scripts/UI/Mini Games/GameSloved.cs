@@ -12,17 +12,27 @@ public class GameSloved : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        message.gameObject.SetActive(false);
-        button.gameObject.SetActive(false);
+        //message.gameObject.SetActive(false);
+        //button.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (lettersSolved.All(item => item.isLocked))
+        if ( message != null && button != null)
         {
-            message.gameObject.SetActive(true);
-            button.gameObject.SetActive(true);
+            if (lettersSolved.All(item => item.isLocked))
+            {
+                message.gameObject.SetActive(true);
+                button.gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            if (lettersSolved.All(item => item.isLocked))
+            {
+                button.gameObject.SetActive(true);
+            }
         }
     }
 }

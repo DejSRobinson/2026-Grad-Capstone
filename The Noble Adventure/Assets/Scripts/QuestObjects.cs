@@ -12,11 +12,12 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public Canvas complete;
 
     public GameObject[] nextQuest;
-    public TextMeshProUGUI One;
+    public TextMeshProUGUI nextHint;
 
     public QuestObjects[] questObjects;
     int i = 0;
     public bool questComplete;
+    public GameObject nextText;
 
     GameObject collision;
 
@@ -24,6 +25,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
     void Start()
     {
         questComplete = false;
+        if (nextText == null) return;
     }
 
     void Update()
@@ -48,12 +50,14 @@ public class QuestObjects : MonoBehaviour, IInteractable
                 {
                     item.questComplete = true;
                 }
+                nextText.gameObject.SetActive(false);
             }
         }
         else if (!questTask.activeInHierarchy)
         {
             questComplete = true;
         }
+        
     }
 
     void LateUpdate()
@@ -87,7 +91,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
             }
             else if (i == 0)  // Currently on second quest
             {
-                One.gameObject.SetActive(false);
+                nextHint.gameObject.SetActive(false);
                 nextQuest[0].gameObject.SetActive(true);
                 i = 1;
             }

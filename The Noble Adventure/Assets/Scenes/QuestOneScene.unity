@@ -42020,7 +42020,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2093242422}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: OnButtonClickFirst
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -47900,9 +47900,10 @@ MonoBehaviour:
   questTask: {fileID: 1667645347}
   complete: {fileID: 505241312}
   nextQuest: []
-  One: {fileID: 0}
+  nextHint: {fileID: 0}
   questObjects: []
   questComplete: 0
+  nextText: {fileID: 0}
 --- !u!61 &1667645351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55815,6 +55816,7 @@ MonoBehaviour:
   npcDialog2: []
   questObject:
   - {fileID: 1667645350}
+  nextGame: []
 --- !u!95 &2093242423
 Animator:
   serializedVersion: 7

@@ -12,7 +12,6 @@ public class PlayerMovement:MonoBehaviour
     private Vector2 targetPosition;
     private bool isMoving = false;
     public GameObject indicator;
-    //public Collider2D collision;
 
     /// <summary>
     /// Sets up our game variables 
