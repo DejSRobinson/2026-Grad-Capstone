@@ -19,25 +19,10 @@ public class InteractionDetector : MonoBehaviour
     {
         interactionHint.gameObject.SetActive(false);
         interactionItem.gameObject.SetActive(false);
-
-        //current = textbox[newHint];
     }
 
     private void Update()
     {
-        /*newHint = NPC.indexTextbox;
-        /*
-        if (newHint == 1) 
-        {
-            //current = textbox[1]; 
-            textbox[0].gameObject.SetActive(false);
-            textbox.RemoveAt(0);
-            Destroy(textbox[0].gameObject);
-        }
-        else { current = textbox[0]; }*/
-
-        //Debug.Log(newHint);
-
         if (textbox.gameObject.activeSelf && interactableInRage == null)
         {
             textbox.gameObject.SetActive(false);

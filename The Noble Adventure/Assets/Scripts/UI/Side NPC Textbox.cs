@@ -6,15 +6,13 @@ using UnityEngine.UI;
 
 public class NPCTemp : MonoBehaviour, IInteractable
 {
-    //Varibles Used
     public bool IsShown { get; private set; }
-
     public Canvas indicator;
     public Canvas textBox;
 
     GameObject collision;
+    private bool isTextBoxOpen = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         textBox.gameObject.SetActive(false);
@@ -23,16 +21,20 @@ public class NPCTemp : MonoBehaviour, IInteractable
     void Update()
     {
         collision = InteractionDetector.hitObject;
-        if (Input.GetKey(KeyCode.E) && collision == gameObject)
+
+        if (Input.GetKeyDown(KeyCode.E) && collision == gameObject && !isTextBoxOpen)
         {
             textBox.gameObject.SetActive(true);
             indicator.gameObject.SetActive(false);
+            isTextBoxOpen = true;
+            Invoke("close", 3.0f);
         }
-        Invoke("close", 6.0f);
     }
+
     void close()
     {
         textBox.gameObject.SetActive(false);
+        isTextBoxOpen = false;
     }
 
     public bool CanInteract()

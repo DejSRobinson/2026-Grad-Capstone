@@ -1,3 +1,4 @@
+using EasyTextEffects.Editor.MyBoxCopy.Extensions;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -15,17 +16,30 @@ public class QuestObjects : MonoBehaviour, IInteractable
     public TextMeshProUGUI nextHint;
 
     public QuestObjects[] questObjects;
-    int i = 0;
     public bool questComplete;
     public GameObject nextText;
 
+    public GameObject[] collected;
     GameObject collision;
 
+
+    int i = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         questComplete = false;
         if (nextText == null) return;
+    }
+
+    void CompleteQuest()
+    {
+        // Handle UI
+        questTask.gameObject.SetActive(false);
+        indicator.gameObject.SetActive(false);
+        complete.gameObject.SetActive(true);
+
+        // Close UI after delay
+        Invoke("close", 1.0f);
     }
 
     void Update()
@@ -35,10 +49,7 @@ public class QuestObjects : MonoBehaviour, IInteractable
         {
             if (collision != null && collision == gameObject)
             {
-                questTask.gameObject.SetActive(false);
-                indicator.gameObject.SetActive(false);
-                complete.gameObject.SetActive(true);
-                Invoke("close", 1.0f);
+                CompleteQuest(); // Call everything here once
             }
         }
 
@@ -50,24 +61,24 @@ public class QuestObjects : MonoBehaviour, IInteractable
                 {
                     item.questComplete = true;
                 }
-                nextText.gameObject.SetActive(false);
+                if (nextText == null) return;
             }
         }
         else if (!questTask.activeInHierarchy)
         {
             questComplete = true;
         }
-        
-    }
 
-    void LateUpdate()
-    {
-        NextQuest();
     }
 
     void close()
     {
         complete.gameObject.SetActive(false);
+    }
+
+    void LateUpdate()
+    {
+        NextQuest();
     }
 
     public bool CanInteract()

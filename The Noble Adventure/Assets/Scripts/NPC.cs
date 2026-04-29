@@ -16,6 +16,7 @@ public class NPC : MonoBehaviour, IInteractable
     public TextMeshProUGUI[] npcDialog2;
 
     public QuestObjects[] questObject;
+    //public GameObject started;
     GameObject collision;
 
     public GameObject[] nextGame;
@@ -93,6 +94,7 @@ public class NPC : MonoBehaviour, IInteractable
     {
         textBox[0].gameObject.SetActive(false);
         textBox[1].gameObject.SetActive(true);
+        //started.gameObject.SetActive(true);
         textBox.RemoveAt(0);
         Destroy(textBox[0].gameObject);
     }
@@ -131,6 +133,7 @@ public class NPC : MonoBehaviour, IInteractable
             textBox[1].gameObject.SetActive(false);
             nextGame[0].gameObject.SetActive(false);
             nextGame[1].gameObject.SetActive(true);
+            //started.gameObject.SetActive(true);
         }
 
         indexTwo++;
