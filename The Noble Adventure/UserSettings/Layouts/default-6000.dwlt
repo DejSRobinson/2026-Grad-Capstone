@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 455.19995
     height: 716.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43.2
+    y: 0
     width: 1536
     height: 36
   m_SerializedDataModeController:
@@ -718,8 +718,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1080.8
-    y: 79.200005
+    x: 1081.8
+    y: 24
     width: 454.19995
     height: 690.8
   m_SerializedDataModeController:
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 338.2
     height: 480.4
   m_SerializedDataModeController:
@@ -859,8 +859,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 339.2
-    y: 79.200005
+    x: 340.2
+    y: 24
     width: 739.60004
     height: 480.4
   m_SerializedDataModeController:
@@ -1760,9 +1760,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 585.60004
+    y: 530.4
     width: 1079.8
-    height: 184.4
+    height: 184.39996
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1812,13 +1812,11 @@ MonoBehaviour:
       m_Data: 50700
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50372
-    - m_Data: 50374
-    - m_Data: 50376
-    - m_Data: 50378
-    - m_Data: 50380
-    - m_Data: 50702
-    - m_Data: 1000000000
+    - m_Data: 50592
+    - m_Data: 50594
+    - m_Data: 50596
+    - m_Data: 50598
+    - m_Data: 50600
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1851,11 +1849,11 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50372
-    - m_Data: 50374
-    - m_Data: 50376
-    - m_Data: 50378
-    - m_Data: 50380
+    - m_Data: 50592
+    - m_Data: 50594
+    - m_Data: 50596
+    - m_Data: 50598
+    - m_Data: 50600
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

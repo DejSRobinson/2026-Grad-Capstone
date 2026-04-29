@@ -7,7 +7,7 @@ public class MenuController : MonoBehaviour
     // Variables Used
     public GameObject pauseMenu;
     public GameObject hint;
-
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,6 +45,11 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene("Prologue");
+    }
+
+    public void LoadScene()
+    {
+        SceneManager.LoadScene("QuestOneScene");
     }
 
     public void ReturnToMainMenu()
