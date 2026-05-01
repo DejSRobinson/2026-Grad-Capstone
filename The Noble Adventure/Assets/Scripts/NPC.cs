@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Linq;
 
 public class NPC : MonoBehaviour, IInteractable
 {
@@ -77,6 +78,14 @@ public class NPC : MonoBehaviour, IInteractable
                         textBox[2].gameObject.SetActive(true);
                     }
                 }
+            }
+        }
+        
+        if (nextGame != null)
+        { 
+            if (questObject.All(item => item.questComplete))
+            {
+                nextGame[1].gameObject.SetActive(false);
             }
         }
     }
